@@ -1,13 +1,14 @@
 "use client";
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, Suspense } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useSearchParams } from 'next/navigation';
 import html2canvas from 'html2canvas';
 import jsPDF from 'jspdf';
 
-export default function InvoicePage() {
+// Client component for invoice details
+function InvoiceDetails() {
   const searchParams = useSearchParams();
   const orderId = searchParams.get('orderId') || '123456';
   const invoiceRef = useRef(null);
@@ -239,145 +240,168 @@ export default function InvoicePage() {
   };
   
   return (
-    <main className="min-h-screen py-8 bg-gradient-to-b from-amber-50 to-white">
-      <div className="container mx-auto px-4">
-        <div className="bg-white rounded-lg shadow-md p-6 mb-6">
-          <div className="flex justify-between items-center mb-6">
-            <h1 className="text-2xl font-bold text-gray-800">Invoice</h1>
-            <div className="flex space-x-4">
-              <Link
-                href={`/confirmation?orderId=${orderId}`}
-                className="inline-flex items-center px-4 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#FDBE02]"
-              >
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-                </svg>
-                Back to Order
-              </Link>
-              <button
-                onClick={downloadInvoice}
-                disabled={isGeneratingPDF}
-                className="inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-amber-500"
-                style={{ backgroundColor: '#F57F17' }}
-              >
-                {isGeneratingPDF ? (
-                  <span>Generating...</span>
-                ) : (
-                  <>
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                    </svg>
-                    Download PDF
-                  </>
-                )}
-              </button>
+    <div className="container mx-auto px-4">
+      <div className="bg-white rounded-lg shadow-md p-6 mb-6">
+        <div className="flex justify-between items-center mb-6">
+          <h1 className="text-2xl font-bold text-gray-800">Invoice</h1>
+          <div className="flex space-x-4">
+            <Link
+              href={`/confirmation?orderId=${orderId}`}
+              className="inline-flex items-center px-4 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#FDBE02]"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+              </svg>
+              Back to Order
+            </Link>
+            <button
+              onClick={downloadInvoice}
+              disabled={isGeneratingPDF}
+              className="inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-amber-500"
+              style={{ backgroundColor: '#F57F17' }}
+            >
+              {isGeneratingPDF ? (
+                <span>Generating...</span>
+              ) : (
+                <>
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  </svg>
+                  Download PDF
+                </>
+              )}
+            </button>
+          </div>
+        </div>
+        
+        {/* Invoice Content */}
+        <div ref={invoiceRef}>
+          {/* Invoice Header */}
+          <div className="flex justify-between items-start mb-8">
+            <div>
+              <h2 className="text-2xl font-bold" style={{ color: '#F57F17' }}>{invoiceDetails.companyInfo.name}</h2>
+              <p className="text-gray-600">{invoiceDetails.companyInfo.address}</p>
+              <p className="text-gray-600">{invoiceDetails.companyInfo.email}</p>
+              <p className="text-gray-600">{invoiceDetails.companyInfo.phone}</p>
+              <p className="text-gray-600">{invoiceDetails.companyInfo.website}</p>
+            </div>
+            <div className="text-right">
+              <div className="text-3xl font-bold text-gray-800 mb-2">INVOICE</div>
+              <div className="text-gray-600"><span className="font-medium">Invoice #:</span> {invoiceDetails.invoiceId}</div>
+              <div className="text-gray-600"><span className="font-medium">Order #:</span> {invoiceDetails.orderId}</div>
+              <div className="text-gray-600"><span className="font-medium">Date:</span> {invoiceDetails.invoiceDate}</div>
+              <div className="text-gray-600"><span className="font-medium">Due Date:</span> {invoiceDetails.dueDate}</div>
             </div>
           </div>
           
-          {/* Invoice Content */}
-          <div ref={invoiceRef} className="bg-white p-8 max-w-4xl mx-auto">
-            {/* Invoice Header */}
-            <div className="flex justify-between items-start mb-8">
-              <div>
-                <h2 className="text-2xl font-bold" style={{ color: '#F57F17' }}>{invoiceDetails.companyInfo.name}</h2>
-                <p className="text-gray-600">{invoiceDetails.companyInfo.address}</p>
-                <p className="text-gray-600">{invoiceDetails.companyInfo.email}</p>
-                <p className="text-gray-600">{invoiceDetails.companyInfo.phone}</p>
-                <p className="text-gray-600">{invoiceDetails.companyInfo.website}</p>
-              </div>
-              <div className="text-right">
-                <div className="text-3xl font-bold text-gray-800 mb-2">INVOICE</div>
-                <div className="text-gray-600"><span className="font-medium">Invoice #:</span> {invoiceDetails.invoiceId}</div>
-                <div className="text-gray-600"><span className="font-medium">Order #:</span> {invoiceDetails.orderId}</div>
-                <div className="text-gray-600"><span className="font-medium">Date:</span> {invoiceDetails.invoiceDate}</div>
-                <div className="text-gray-600"><span className="font-medium">Due Date:</span> {invoiceDetails.dueDate}</div>
-              </div>
+          {/* Invoice To/From */}
+          <div className="flex justify-between items-start mb-8">
+            <div>
+              <h3 className="text-lg font-semibold text-gray-800 mb-2">Invoice To:</h3>
+              <p className="text-gray-800 font-medium">{invoiceDetails.customerInfo.name}</p>
+              <p className="text-gray-600">{invoiceDetails.customerInfo.address}</p>
+              <p className="text-gray-600">{invoiceDetails.customerInfo.email}</p>
+              <p className="text-gray-600">{invoiceDetails.customerInfo.phone}</p>
             </div>
-            
-            {/* Invoice To/From */}
-            <div className="flex justify-between mb-8">
-              <div>
-                <h3 className="text-lg font-semibold text-gray-800 mb-2">Invoice To:</h3>
-                <p className="text-gray-800 font-medium">{invoiceDetails.customerInfo.name}</p>
-                <p className="text-gray-600">{invoiceDetails.customerInfo.address}</p>
-                <p className="text-gray-600">{invoiceDetails.customerInfo.email}</p>
-                <p className="text-gray-600">{invoiceDetails.customerInfo.phone}</p>
-              </div>
-              <div className="text-right">
-                <h3 className="text-lg font-semibold text-gray-800 mb-2">Payment Method:</h3>
-                <p className="text-gray-600">{invoiceDetails.paymentMethod}</p>
-                <div className="mt-4 bg-amber-50 p-3 rounded-md inline-block">
-                  <div className="font-bold text-lg" style={{ color: '#F57F17' }}>
-                    ${invoiceDetails.total.toFixed(2)}
-                  </div>
-                  <div className="text-gray-600 text-sm">Total Due</div>
+            <div className="text-right">
+              <h3 className="text-lg font-semibold text-gray-800 mb-2">Payment Method:</h3>
+              <p className="text-gray-600">{invoiceDetails.paymentMethod}</p>
+              <div className="mt-4 bg-amber-50 p-3 rounded-md inline-block">
+                <div className="font-bold text-lg" style={{ color: '#F57F17' }}>
+                  ${invoiceDetails.total.toFixed(2)}
                 </div>
+                <div className="text-gray-600 text-sm">Total Due</div>
               </div>
             </div>
-            
-            {/* Invoice Items */}
-            <div className="mb-8">
-              <table className="min-w-full bg-white">
-                <thead>
-                  <tr className="bg-gray-100 border-b border-gray-200">
-                    <th className="text-left py-3 px-4 font-semibold text-sm text-gray-700">Item</th>
-                    <th className="text-left py-3 px-4 font-semibold text-sm text-gray-700">Description</th>
-                    <th className="text-right py-3 px-4 font-semibold text-sm text-gray-700">Price</th>
-                    <th className="text-right py-3 px-4 font-semibold text-sm text-gray-700">Qty</th>
-                    <th className="text-right py-3 px-4 font-semibold text-sm text-gray-700">Total</th>
+          </div>
+          
+          {/* Invoice Items */}
+          <div className="mb-8">
+            <table className="min-w-full bg-white">
+              <thead>
+                <tr className="bg-gray-100 border-b border-gray-200">
+                  <th className="text-left py-3 px-4 font-semibold text-sm text-gray-700">Item</th>
+                  <th className="text-left py-3 px-4 font-semibold text-sm text-gray-700">Description</th>
+                  <th className="text-right py-3 px-4 font-semibold text-sm text-gray-700">Price</th>
+                  <th className="text-right py-3 px-4 font-semibold text-sm text-gray-700">Qty</th>
+                  <th className="text-right py-3 px-4 font-semibold text-sm text-gray-700">Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                {invoiceDetails.items.map((item) => (
+                  <tr key={item.id} className="border-b border-gray-200">
+                    <td className="py-3 px-4 text-gray-800">{item.name}</td>
+                    <td className="py-3 px-4 text-gray-600">{item.description}</td>
+                    <td className="py-3 px-4 text-right text-gray-800">${item.price.toFixed(2)}</td>
+                    <td className="py-3 px-4 text-right text-gray-800">{item.quantity}</td>
+                    <td className="py-3 px-4 text-right font-medium text-gray-800">${item.total.toFixed(2)}</td>
                   </tr>
-                </thead>
-                <tbody>
-                  {invoiceDetails.items.map((item) => (
-                    <tr key={item.id} className="border-b border-gray-200">
-                      <td className="py-3 px-4 text-gray-800">{item.name}</td>
-                      <td className="py-3 px-4 text-gray-600">{item.description}</td>
-                      <td className="py-3 px-4 text-right text-gray-800">${item.price.toFixed(2)}</td>
-                      <td className="py-3 px-4 text-right text-gray-800">{item.quantity}</td>
-                      <td className="py-3 px-4 text-right font-medium text-gray-800">${item.total.toFixed(2)}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-            
-            {/* Invoice Summary */}
-            <div className="flex justify-end mb-8">
-              <div className="w-full max-w-xs">
-                <div className="flex justify-between py-2">
-                  <span className="text-gray-600">Subtotal:</span>
-                  <span className="text-gray-800 font-medium">${invoiceDetails.subtotal.toFixed(2)}</span>
-                </div>
-                <div className="flex justify-between py-2">
-                  <span className="text-gray-600">Shipping:</span>
-                  <span className="text-gray-800 font-medium">
-                    {invoiceDetails.shipping === 0 ? 'Free' : `$${invoiceDetails.shipping.toFixed(2)}`}
-                  </span>
-                </div>
-                <div className="flex justify-between py-2">
-                  <span className="text-gray-600">Tax (5%):</span>
-                  <span className="text-gray-800 font-medium">${invoiceDetails.tax.toFixed(2)}</span>
-                </div>
-                <div className="flex justify-between py-2 border-t border-gray-200 font-bold">
-                  <span className="text-gray-800">Total:</span>
-                  <span style={{ color: '#F57F17' }}>${invoiceDetails.total.toFixed(2)}</span>
-                </div>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          
+          {/* Invoice Summary */}
+          <div className="flex justify-end mb-8">
+            <div className="w-full max-w-xs">
+              <div className="flex justify-between py-2">
+                <span className="text-gray-600">Subtotal:</span>
+                <span className="text-gray-800 font-medium">${invoiceDetails.subtotal.toFixed(2)}</span>
+              </div>
+              <div className="flex justify-between py-2">
+                <span className="text-gray-600">Shipping:</span>
+                <span className="text-gray-800 font-medium">
+                  {invoiceDetails.shipping === 0 ? 'Free' : `$${invoiceDetails.shipping.toFixed(2)}`}
+                </span>
+              </div>
+              <div className="flex justify-between py-2">
+                <span className="text-gray-600">Tax (5%):</span>
+                <span className="text-gray-800 font-medium">${invoiceDetails.tax.toFixed(2)}</span>
+              </div>
+              <div className="flex justify-between py-2 border-t border-gray-200 font-bold">
+                <span className="text-gray-800">Total:</span>
+                <span style={{ color: '#F57F17' }}>${invoiceDetails.total.toFixed(2)}</span>
               </div>
             </div>
-            
-            {/* Invoice Footer */}
-            <div className="mt-8 pt-8 border-t border-gray-200">
-              <div className="text-center text-gray-600">
-                <p className="font-medium text-gray-800">Thank you for your business!</p>
-                <p className="mt-2">
-                  If you have any questions about this invoice, please contact<br />
-                  {invoiceDetails.companyInfo.email} | {invoiceDetails.companyInfo.phone}
-                </p>
-              </div>
+          </div>
+          
+          {/* Invoice Footer */}
+          <div className="mt-8 pt-8 border-t border-gray-200">
+            <div className="text-center text-gray-600">
+              <p className="font-medium text-gray-800">Thank you for your business!</p>
+              <p className="mt-2">
+                If you have any questions about this invoice, please contact<br />
+                {invoiceDetails.companyInfo.email} | {invoiceDetails.companyInfo.phone}
+              </p>
             </div>
           </div>
         </div>
       </div>
+    </div>
+  );
+}
+
+// Loading component
+function Loading() {
+  return (
+    <div className="container mx-auto px-4 py-8">
+      <div className="animate-pulse">
+        <div className="h-8 bg-gray-200 rounded w-1/4 mb-4"></div>
+        <div className="h-4 bg-gray-200 rounded w-1/2 mb-8"></div>
+        <div className="h-64 bg-gray-200 rounded mb-8"></div>
+        <div className="h-32 bg-gray-200 rounded mb-8"></div>
+      </div>
+    </div>
+  );
+}
+
+// Main page component
+export default function InvoicePage() {
+  return (
+    <main className="min-h-screen py-8 bg-gradient-to-b from-amber-50 to-white">
+      <Suspense fallback={<Loading />}>
+        <InvoiceDetails />
+      </Suspense>
     </main>
   );
 } 
