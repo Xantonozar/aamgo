@@ -1,0 +1,18 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.amgomangoes.com/sitemap.xml
+
+# Disallow private pages
+Disallow: /invoice
+Disallow: /confirmation
+Disallow: /checkout
+Disallow: /cart
+Disallow: /api/*
+Disallow: /admin/*
+Disallow: /private/*
+
+# Crawl-delay for all bots
+Crawl-delay: 10 
