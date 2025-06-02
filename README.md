@@ -42,7 +42,7 @@ AamGo is a modern, responsive e-commerce platform specializing in premium qualit
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/aamgo.git
+   git clone https://github.com/xanton_ozar/aamgo.git
    cd aamgo
    ```
 
@@ -119,8 +119,7 @@ The project uses a custom color scheme with mango-inspired colors:
 5. Open a Pull Request
 
 ## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+not avialable right now 
 
 ## 👥 Authors
 
