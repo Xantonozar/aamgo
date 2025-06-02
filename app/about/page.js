@@ -692,7 +692,7 @@ export default function AboutPage() {
                 <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105 group">
                   <div className="relative overflow-hidden">
                     <img 
-                      src="https://images.unsplash.com/photo-1591073113125-e46713c829ed?q=80&w=1974" 
+                      src="/mangoes/gopal3.jpg" 
                       alt="Sustainable farming" 
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     />
@@ -708,7 +708,7 @@ export default function AboutPage() {
                 <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105 mt-8 group">
                   <div className="relative overflow-hidden">
                     <img 
-                      src="https://images.unsplash.com/photo-1601493700631-2b16ec4b4716?q=80&w=1935" 
+                      src="/mangies/himsagar2.jpg" 
                       alt="Organic mangoes" 
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     />
@@ -724,7 +724,7 @@ export default function AboutPage() {
                 <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105 group">
                   <div className="relative overflow-hidden">
                     <img 
-                      src="https://images.unsplash.com/photo-1519096845289-95806ee03a1a?q=80&w=1974" 
+                      src="/mangoes/khirsapat2.jpg" 
                       alt="Mango harvest" 
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     />
@@ -740,7 +740,7 @@ export default function AboutPage() {
                 <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105 mt-8 group">
                   <div className="relative overflow-hidden">
                     <img 
-                      src="https://images.unsplash.com/photo-1626082936010-1d58a1a03856?q=80&w=1974" 
+                      src="/mangoes/gopal1.jpg" 
                       alt="Mango trees" 
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     />
