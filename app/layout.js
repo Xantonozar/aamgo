@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata = {
   title: {
     default: 'আমGO - Premium Mangoes from Rajshahi , Chapai Nawab Ganj and Naogaon',
-    template: '%s | আমGO ',
+    template: '%s | আমGO Shop',
   },
   description: 'Buy premium Bangladeshi mangoes delivered fresh from the farm.',
   icons: {
@@ -17,25 +17,25 @@ export const metadata = {
     apple: '/vercel.svg'
   },
   openGraph: {
-    title: 'আমGO ',
+    title: 'আমGO Shop',
     description: 'Delicious Bangladeshi mangoes from our farm to your table.',
     url: 'https://aamgoshop.vercel.app',
     siteName: 'আমGO',
     images: [
       {
-        url: 'https://aamgoshop.vercel.app/vercel.svg',
+        url: 'https://aamgoshop.vercel.app/vercel.png',
         width: 1200,
         height: 630,
       },
     ],
-    locale: 'bn_BD',
+    locale: 'en_US',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'আমGO',
     description: 'Delicious Bangladeshi mangoes from our farm to your table.',
-    images: ['https://aamgoshop.vercel.app/vercel.svg'],
+    images: ['https://aamgoshop.vercel.app/vercel.png'],
   },
 };
 
