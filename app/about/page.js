@@ -685,75 +685,7 @@ export default function AboutPage() {
             </svg>
           </div>
           
-          <div className="flex flex-col md:flex-row items-center gap-12 lg:gap-16">
-            <div className="md:w-1/2 order-2 md:order-1">
-              <div className="grid grid-cols-2 gap-4 lg:gap-6">
-                {/* Image 1 */}
-                <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105 group">
-                  <div className="relative overflow-hidden">
-                    <img 
-                      src="/mangoes/gopal3.jpg" 
-                      alt="Sustainable farming" 
-                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end">
-                      <div className="p-3 text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
-                        <h4 className="text-sm font-medium">Eco-friendly Practices</h4>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                
-                {/* Image 2 */}
-                <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105 mt-8 group">
-                  <div className="relative overflow-hidden">
-                    <img 
-                      src="/mangoes/gopal3.jpg" 
-                      alt="Organic mangoes" 
-                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end">
-                      <div className="p-3 text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
-                        <h4 className="text-sm font-medium">Organic Cultivation</h4>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                
-                {/* Image 3 */}
-                <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105 group">
-                  <div className="relative overflow-hidden">
-                    <img 
-                      src="/mangoes/himsagar2.jpg" 
-                      alt="Mango harvest" 
-                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end">
-                      <div className="p-3 text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
-                        <h4 className="text-sm font-medium">Careful Harvesting</h4>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                
-                {/* Image 4 */}
-                <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105 mt-8 group">
-                  <div className="relative overflow-hidden">
-                    <img 
-                      src="/mangoes/himsagar2.jpg" 
-                      alt="Mango trees" 
-                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end">
-                      <div className="p-3 text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
-                        <h4 className="text-sm font-medium">Sustainable Orchards</h4>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
+         
             <div className="md:w-1/2 order-1 md:order-2">
               <div className="relative mb-8">
                 <span className="inline-block px-4 py-1 bg-white text-[#F57F17] text-sm font-medium rounded-md mb-3 shadow-sm transform hover:scale-105 transition-transform duration-300">
