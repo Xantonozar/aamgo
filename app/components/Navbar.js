@@ -512,7 +512,7 @@ export default function Navbar() {
 
             {/* Custom Mango SVG Icon */}
              <Image 
-      src="/mangoes/logo2.png" 
+      src="/vercel.svg" 
       alt="AmGo Logo" 
       width={98} 
       height={8} 
@@ -527,43 +527,43 @@ export default function Navbar() {
         <div className="hidden lg:flex space-x-6">
           <Link 
             href="/" 
-            className="text-[#359768] font-bold   transition-all duration-300 py-1 px-3 relative group overflow-hidden"
+            className="text-[#d00031] font-bold   transition-all duration-300 py-1 px-3 relative group overflow-hidden"
             onClick={() => setActiveLink('/')}
           >
-            <span className="relative z-10 inline-block transition-transform duration-500 group-hover:flip-y group-hover:text-[#359768]">Home</span>
-            <span className="absolute bottom-0 left-0 w-full h-[2px] bg-gradient-to-r from-[#359768] to-[#359768] origin-left transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 loading-bar"></span>
+            <span className="relative z-10 inline-block transition-transform duration-500 group-hover:flip-y group-hover:text-[#d00031]">Home</span>
+            <span className="absolute bottom-0 left-0 w-full h-[2px] bg-gradient-to-r from-[#d00031] to-[#d00031] origin-left transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 loading-bar"></span>
           </Link>
           <Link 
             href="/shop" 
-            className="text-[#359768] font-bold  transition-all duration-300 py-1 px-3 relative group overflow-hidden"
+            className="text-[#d00031] font-bold  transition-all duration-300 py-1 px-3 relative group overflow-hidden"
             onClick={() => setActiveLink('/shop')}
           >
-            <span className="relative z-10 inline-block transition-transform duration-500 group-hover:flip-y group-hover:text-[#359768]">Shop</span>
-            <span className="absolute bottom-0 left-0 w-full h-[2px] bg-gradient-to-r from-[#359768] to-[#359768] origin-left transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 loading-bar"></span>
+            <span className="relative z-10 inline-block transition-transform duration-500 group-hover:flip-y group-hover:text-[#d00031]">Shop</span>
+            <span className="absolute bottom-0 left-0 w-full h-[2px] bg-gradient-to-r from-[#d00031] to-[#d00031] origin-left transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 loading-bar"></span>
           </Link>
           <Link 
             href="/about" 
-            className="text-[#359768] font-bold  transition-all duration-300 py-1 px-3 relative group overflow-hidden"
+            className="text-[#d00031] font-bold  transition-all duration-300 py-1 px-3 relative group overflow-hidden"
             onClick={() => setActiveLink('/about')}
           >
-            <span className="relative z-10 inline-block transition-transform duration-500 group-hover:flip-y group-hover:text-[#359768]">About</span>
-            <span className="absolute bottom-0 left-0 w-full h-[2px] bg-gradient-to-r from-[#359768] to-[#359768] origin-left transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 loading-bar"></span>
+            <span className="relative z-10 inline-block transition-transform duration-500 group-hover:flip-y group-hover:text-[#d00031]">About</span>
+            <span className="absolute bottom-0 left-0 w-full h-[2px] bg-gradient-to-r from-[#d00031] to-[#d00031] origin-left transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 loading-bar"></span>
           </Link>
           <Link 
             href="/blog" 
-            className="text-[#359768] font-bold  transition-all duration-300 py-1 px-3 relative group overflow-hidden"
+            className="text-[#d00031] font-bold  transition-all duration-300 py-1 px-3 relative group overflow-hidden"
             onClick={() => setActiveLink('/blog')}
           >
-            <span className="relative z-10 inline-block transition-transform duration-500 group-hover:flip-y group-hover:text-[#359768]">Blog/Recipes</span>
-            <span className="absolute bottom-0 left-0 w-full h-[2px] bg-gradient-to-r from-[#359768] to-[#359768] origin-left transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 loading-bar"></span>
+            <span className="relative z-10 inline-block transition-transform duration-500 group-hover:flip-y group-hover:text-[#d00031]">Blog/Recipes</span>
+            <span className="absolute bottom-0 left-0 w-full h-[2px] bg-gradient-to-r from-[#d00031] to-[#d00031] origin-left transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 loading-bar"></span>
           </Link>
           <Link 
             href="/contact" 
-            className="text-[#359768] font-bold  transition-all duration-300 py-1 px-3 relative group overflow-hidden"
+            className="text-[#d00031] font-bold  transition-all duration-300 py-1 px-3 relative group overflow-hidden"
             onClick={() => setActiveLink('/contact')}
           >
-            <span className="relative z-10 inline-block transition-transform duration-500 group-hover:flip-y group-hover:text-[#359768]">Contact</span>
-            <span className="absolute bottom-0 left-0 w-full h-[2px] bg-gradient-to-r from-[#359768] to-[#359768] origin-left transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 loading-bar"></span>
+            <span className="relative z-10 inline-block transition-transform duration-500 group-hover:flip-y group-hover:text-[#d00031]">Contact</span>
+            <span className="absolute bottom-0 left-0 w-full h-[2px] bg-gradient-to-r from-[#d00031] to-[#d00031] origin-left transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 loading-bar"></span>
           </Link>
         </div>
 
@@ -571,11 +571,11 @@ export default function Navbar() {
         <div className="flex items-center space-x-4">
           {/* Search Bar */}
           <div className="hidden md:block relative search-container">
-            <div className="flex items-center border border-gray-300 rounded-full overflow-hidden px-3 py-1 focus-within:ring-2 focus-within:ring-[#359768] transition-all duration-300 hover:shadow-md">
+            <div className="flex items-center border border-gray-300 rounded-full overflow-hidden px-3 py-1 focus-within:ring-2 focus-within:ring-[#d00031] transition-all duration-300 hover:shadow-md">
               <input 
                 type="text" 
                 placeholder="Search for mangoes..." 
-                className="text-sm outline-none border-none bg-transparent w-32 xl:w-40 placeholder-[#359768] text-[#359768] font-medium"
+                className="text-sm outline-none border-none bg-transparent w-32 xl:w-40 placeholder-[#d00031] text-[#d00031] font-medium"
                 value={searchQuery}
                 onChange={handleSearch}
                 onFocus={() => searchResults.length > 0 && setShowResults(true)}
@@ -583,13 +583,13 @@ export default function Navbar() {
               {searchQuery ? (
                 <button 
                   onClick={clearSearch} 
-                  className="p-1 text-[#359768] hover:text-[#359768] transition-all duration-300"
+                  className="p-1 text-[#d00031] hover:text-[#d00031] transition-all duration-300"
                 >
-                  <XMarkIcon className="h-5 w-5 text-[#359768]" />
+                  <XMarkIcon className="h-5 w-5 text-[#d00031]" />
                 </button>
               ) : (
-                <button className="p-1 text-[#359768] hover:text-[#359768] transition-all duration-300 hover:rotate-12">
-                  <MagnifyingGlassIcon className="h-5 w-5 text-[#359768]" />
+                <button className="p-1 text-[#d00031] hover:text-[#d00031] transition-all duration-300 hover:rotate-12">
+                  <MagnifyingGlassIcon className="h-5 w-5 text-[#d00031]" />
                 </button>
               )}
             </div>
@@ -630,23 +630,23 @@ export default function Navbar() {
           </div>
 
           {/* User Account */}
-          <button className="p-2 text-[#359768] hover:text-[#359768] transition-all duration-300 hover:rotate-6 relative group">
+          <button className="p-2 text-[#d00031] hover:text-[#d00031] transition-all duration-300 hover:rotate-6 relative group">
             <span className="absolute inset-0 rounded-full bg-amber-50 scale-0 group-hover:scale-100 transition-transform duration-300"></span>
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 relative z-10 text-[#359768]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 relative z-10 text-[#d00031]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
             </svg>
           </button>
 
           {/* Cart with Badge */}
           <div className="relative group">
-            <button className="p-2 text-[#359768] hover:text-[#359768] transition-all duration-300 relative">
+            <button className="p-2 text-[#d00031] hover:text-[#d00031] transition-all duration-300 relative">
               <span className="absolute inset-0 rounded-full bg-amber-50 scale-0 group-hover:scale-100 transition-transform duration-300"></span>
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 relative z-10 group-hover:scale-110 transition-transform duration-300 text-[#359768]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 relative z-10 group-hover:scale-110 transition-transform duration-300 text-[#d00031]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
               </svg>
             </button>
             {cartCount > 0 && (
-              <span className="absolute -top-1 -right-1 bg-[#359768] text-white text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center z-20 animate-pulse">
+              <span className="absolute -top-1 -right-1 bg-[#d00031] text-white text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center z-20 animate-pulse">
                 {cartCount}
               </span>
             )}
@@ -655,10 +655,10 @@ export default function Navbar() {
           {/* Mobile Menu Button */}
           <button 
             onClick={() => setIsOpen(!isOpen)} 
-            className="lg:hidden p-2 text-[#359768] hover:text-[#359768] transition-all duration-300 focus:outline-none relative group"
+            className="lg:hidden p-2 text-[#d00031] hover:text-[#d00031] transition-all duration-300 focus:outline-none relative group"
           >
             <span className="absolute inset-0 rounded-full bg-amber-50 scale-0 group-hover:scale-100 transition-transform duration-300"></span>
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 relative z-10 text-[#359768]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 relative z-10 text-[#d00031]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d={isOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"} />
             </svg>
           </button>

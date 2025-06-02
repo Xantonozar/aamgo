@@ -9,7 +9,7 @@ export default function HeroSection() {
   const carouselItems = [
     {
       image: {
-        src: "https://images.pexels.com/photos/2363347/pexels-photo-2363347.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        src: "/mangoes/himsagar1.jpg",
         alt: "Fresh mangoes on wooden table"
       },
       offer: {
@@ -19,14 +19,14 @@ export default function HeroSection() {
       },
       product: {
         name: "Himsagar Mango",
-        image: "https://images.pexels.com/photos/918643/pexels-photo-918643.jpeg?auto=compress&cs=tinysrgb&w=1000",
+        image: "/mangoes/khirsapat2.jpg",
         rating: 5,
         badge: "Sweetest"
       }
     },
     {
       image: {
-        src: "https://images.pexels.com/photos/4412924/pexels-photo-4412924.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        src: "/mangoes/khirsapat3.jpg",
         alt: "Mango slices"
       },
       offer: {
@@ -36,14 +36,14 @@ export default function HeroSection() {
       },
       product: {
         name: "gopalvog Mango",
-        image: "https://images.pexels.com/photos/4393436/pexels-photo-4393436.jpeg?auto=compress&cs=tinysrgb&w=1000",
+        image: "/mangoes/himsagar2.jpg",
         rating: 4.5,
         badge: "Premium"
       }
     },
     {
       image: {
-        src: "https://images.pexels.com/photos/2294471/pexels-photo-2294471.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        src: "/mangoes/gopal3.jpg",
         alt: "Mango farm harvest"
       },
       offer: {
@@ -53,14 +53,14 @@ export default function HeroSection() {
       },
       product: {
         name: "Langra Mango",
-        image: "https://images.pexels.com/photos/4022220/pexels-photo-4022220.jpeg?auto=compress&cs=tinysrgb&w=1000", 
+        image: "/mangoes/khirsapat1.jpg", 
         rating: 4,
         badge: "Coming Soon"
       }
     },
     {
       image: {
-        src: "https://images.pexels.com/photos/918643/pexels-photo-918643.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        src: "/mangoes/gopal2.jpg",
         alt: "Mango close up"
       },
       offer: {
@@ -70,7 +70,7 @@ export default function HeroSection() {
       },
       product: {
         name: "Amropali Mango",
-        image: "https://images.pexels.com/photos/5946081/pexels-photo-5946081.jpeg?auto=compress&cs=tinysrgb&w=1000",
+        image: "/mangoes/gopal2.jpg",
         rating: 5,
         badge: "Harvestinng in Tree"
       }
@@ -211,7 +211,7 @@ export default function HeroSection() {
                 className="inline-flex items-center justify-center bg-white text-[#333333] font-semibold px-6 md:px-8 py-3 md:py-4 rounded-lg border border-[#e0e0e0] hover:border-[#f57f17] hover:text-[#f57f17] transition-all duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-1 hover:scale-105 group text-base md:text-lg whitespace-nowrap"
               >
                 <span className="relative z-10 flex items-center">
-                 Mangopedia
+                 আমGOPEDIA
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 md:h-5 md:w-5 ml-2 opacity-0 group-hover:opacity-100 transform -translate-x-2 group-hover:translate-x-0 transition-all duration-300" viewBox="0 0 20 20" fill="currentColor">
                     <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
                     <path fillRule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clipRule="evenodd" />

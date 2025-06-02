@@ -405,7 +405,7 @@ export default function AboutPage() {
             <div className="md:w-1/2 ml-6  relative">
               <div className="relative rounded-xl overflow-hidden shadow-xl transform hover:scale-[1.03] transition-all duration-500 group animate-stagger">
                 <img 
-                  src="https://images.unsplash.com/photo-1553279768-865429fa0078?q=80&w=1974" 
+                  src="/vercel.png" 
                   alt="AmGo history" 
                   className="w-full  h-auto"
                 />
