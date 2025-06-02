@@ -684,6 +684,75 @@ export default function AboutPage() {
               <path fill="currentColor" d="M42.8,-65.2C56.9,-56.3,70.8,-46.6,75.4,-33.4C80,-20.2,75.3,-3.5,71.1,12.2C66.9,27.9,63.2,42.6,53.5,52.8C43.8,63,28.2,68.6,12.8,69.8C-2.6,71,-17.8,67.8,-32.5,61.7C-47.2,55.6,-61.3,46.6,-69.8,33.5C-78.3,20.4,-81.1,3.2,-77.2,-12.2C-73.3,-27.5,-62.7,-41,-49.6,-50C-36.5,-59,-18.2,-63.5,-1.7,-61.1C14.9,-58.7,29.8,-49.4,42.8,-65.2Z" transform="translate(100 100)" />
             </svg>
           </div>
+ <div className="flex flex-col md:flex-row items-center gap-12 lg:gap-16">
+            <div className="md:w-1/2 order-2 md:order-1">
+              <div className="grid grid-cols-2 gap-4 lg:gap-6">
+                {/* Image 1 */}
+                <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105 group">
+                  <div className="relative overflow-hidden">
+                    <img 
+                      src="/mangoes/gopal3.jpg" 
+                      alt="Sustainable farming" 
+                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end">
+                      <div className="p-3 text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+                        <h4 className="text-sm font-medium">Eco-friendly Practices</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                {/* Image 2 */}
+                <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105 mt-8 group">
+                  <div className="relative overflow-hidden">
+                    <img 
+                      src="/mangoes/gopal3.jpg" 
+                      alt="Organic mangoes" 
+                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end">
+                      <div className="p-3 text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+                        <h4 className="text-sm font-medium">Organic Cultivation</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                {/* Image 3 */}
+                <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105 group">
+                  <div className="relative overflow-hidden">
+                    <img 
+                      src="/mangoes/himsagar2.jpg" 
+                      alt="Mango harvest" 
+                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end">
+                      <div className="p-3 text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+                        <h4 className="text-sm font-medium">Careful Harvesting</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                {/* Image 4 */}
+                <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105 mt-8 group">
+                  <div className="relative overflow-hidden">
+                    <img 
+                      src="/mangoes/himsagar2.jpg" 
+                      alt="Mango trees" 
+                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end">
+                      <div className="p-3 text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+                        <h4 className="text-sm font-medium">Sustainable Orchards</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
           
          
             <div className="md:w-1/2 order-1 md:order-2">
