@@ -120,7 +120,7 @@ export default function AboutPage() {
       id: 2,
       name: 'Salman Ahmed Zadid',
       role: 'CO founder and Oparation Asssistant ',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=1000',
+      image: '/zadid.jpg',
       bio: 'Salman oensure our website , content remain qualityfull.',
     },
     {
