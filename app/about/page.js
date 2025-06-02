@@ -708,7 +708,7 @@ export default function AboutPage() {
                 <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105 mt-8 group">
                   <div className="relative overflow-hidden">
                     <img 
-                      src="/mangoes/gopal2.jpg" 
+                      src="/mangoes/gopal3.jpg" 
                       alt="Organic mangoes" 
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     />
@@ -724,7 +724,7 @@ export default function AboutPage() {
                 <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105 group">
                   <div className="relative overflow-hidden">
                     <img 
-                      src="/mangoes/himsagar1.jpg" 
+                      src="/mangoes/himsagar2.jpg" 
                       alt="Mango harvest" 
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     />
