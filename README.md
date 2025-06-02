@@ -1,36 +1,137 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🥭 AamGo - Premium Mango E-commerce Platform
 
-## Getting Started
+AamGo is a modern, responsive e-commerce platform specializing in premium quality mangoes. Built with Next.js and Tailwind CSS, it offers a seamless shopping experience for mango enthusiasts.
 
-First, run the development server:
+![AamGo Banner](public/images/banner.jpg)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## ✨ Features
+
+- **Premium Mango Selection**
+  - Himsagar
+  - Lengra
+  - Gopalvog
+  - Amropali
+  - Khirsapat
+  - And more...
+
+- **Advanced Filtering System**
+  - Filter by mango type
+  - Price range filtering
+  - Sort by popularity, price, and name
+
+- **User-Friendly Interface**
+  - Responsive design for all devices
+  - Intuitive navigation
+  - Beautiful product cards with hover effects
+  - Smooth animations and transitions
+
+- **Contact System**
+  - Integrated EmailJS for reliable communication
+  - Secure form handling
+  - Real-time feedback
+
+## 🚀 Tech Stack
+
+- **Frontend Framework**: Next.js 14
+- **Styling**: Tailwind CSS
+- **Email Service**: EmailJS
+- **Icons**: React Icons
+- **Animation**: Framer Motion
+
+## 🛠️ Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/aamgo.git
+   cd aamgo
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Create a `.env.local` file in the root directory and add your environment variables:
+   ```env
+   NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=your_public_key
+   EMAILJS_SERVICE_ID=your_service_id
+   EMAILJS_TEMPLATE_ID=your_template_id
+   ```
+
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 📁 Project Structure
+
+```
+aamgo/
+├── app/
+│   ├── components/
+│   │   ├── ContactForm.js
+│   │   ├── FilterPanel.js
+│   │   ├── ProductGrid.js
+│   │   └── ProductCard.js
+│   ├── layout.js
+│   └── page.js
+├── public/
+│   └── images/
+├── styles/
+│   └── globals.css
+└── package.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔧 Configuration
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### EmailJS Setup
+1. Sign up for an EmailJS account
+2. Create a new email service
+3. Create an email template
+4. Add your credentials to `.env.local`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Tailwind Configuration
+The project uses a custom color scheme with mango-inspired colors:
+- Primary: #f57f17 (Mango Orange)
+- Secondary: #ffd54f (Mango Yellow)
+- Accent: #ff8f00 (Mango Dark)
 
-## Learn More
+## 🎨 Customization
 
-To learn more about Next.js, take a look at the following resources:
+### Adding New Mango Types
+1. Open `app/components/FilterPanel.js`
+2. Add new mango type to the `mangoTypes` array
+3. Update the filter logic in `ProductGrid.js`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Modifying Styles
+- Global styles are in `styles/globals.css`
+- Component-specific styles use Tailwind classes
+- Custom colors can be modified in `tailwind.config.js`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🤝 Contributing
 
-## Deploy on Vercel
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📝 License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👥 Authors
+
+- Your Name - Initial work - [YourGitHub](https://github.com/yourusername)
+
+## 🙏 Acknowledgments
+
+- Thanks to all contributors
+- Inspired by the rich mango culture
+- Built with love for mango enthusiasts
+
+---
+
+Made with ❤️ and 🥭
