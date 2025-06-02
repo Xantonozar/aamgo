@@ -1,4 +1,4 @@
-# 🥭 AamGo - Premium Mango E-commerce Platform
+# 🥭 আমGO - Premium Mango E-commerce Platform
 
 AamGo is a modern, responsive e-commerce platform specializing in premium quality mangoes. Built with Next.js and Tailwind CSS, it offers a seamless shopping experience for mango enthusiasts.
 
@@ -124,7 +124,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-- Your Name - Initial work - [YourGitHub](https://github.com/yourusername)
+- Your Name - Initial work - (https://github.com/xanton_ozar)
 
 ## 🙏 Acknowledgments
 
