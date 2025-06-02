@@ -44,11 +44,11 @@ const reviewsData = [
 const products = [
   {
     "id": 1,
-    "name": "Gopalbhog Mango - 12kg",
+    "name": "Gopalbhog - 12kg",
     "description": "An early-season mango known for its sweet taste and minimal fiber content.",
-    "price": 1320.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "Early Season",
+    "price": 1270.00,
+    "image": "/mangoes/gopal1.jpg",
+    "badge": "Stock Ending",
     "rating": 4.5,
     "reviews": 120,
     "category": "Seasonal",
@@ -61,11 +61,11 @@ const products = [
   },
   {
     "id": 2,
-    "name": "Gopalbhog Mango - 23kg",
+    "name": "Gopalbhog - 23kg",
     "description": "An early-season mango known for its sweet taste and minimal fiber content.",
-    "price": 2530.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "Early Season",
+    "price": 2299.00,
+    "image": "/mangoes/gopal2.jpg",
+    "badge": "Stock Ending",
     "rating": 4.5,
     "reviews": 120,
     "category": "Seasonal",
@@ -78,11 +78,11 @@ const products = [
   },
   {
     "id": 3,
-    "name": "Gopalbhog Mango - 46kg",
+    "name": "Gopalbhog - 46kg",
     "description": "An early-season mango known for its sweet taste and minimal fiber content.",
-    "price": 5060.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "Early Season",
+    "price": 4349.00,
+    "image": "/mangoes/gopal3.jpg",
+    "badge": "Stock Ending",
     "rating": 4.5,
     "reviews": 120,
     "category": "Seasonal",
@@ -93,69 +93,69 @@ const products = [
     "origin": "Rajshahi",
     "amount": 46
   },
-  {
+   {
     "id": 4,
-    "name": "Amrapali Mango - 12kg",
-    "description": "A hybrid variety with deep orange flesh, known for its sweetness and longer shelf life.",
-    "price": 1440.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "Hybrid",
-    "rating": 4.7,
-    "reviews": 150,
+    "name": "Himsagar - 12kg",
+    "description": "A popular variety with fiberless, juicy pulp and a rich aroma.",
+    "price": 1189.00,
+    "image": "/mangoes/himsagar1.jpg",
+    "badge": "Peak Hour",
+    "rating": 4.9,
+    "reviews": 160,
     "category": "Seasonal",
-    "slug": "amrapali-mango-12kg",
+    "slug": "himsagar-mango-12kg",
     "featured": true,
     "priority": 4,
     "attributes": ["gluten-free"],
-    "origin": "Naogaon",
+    "origin": "Chapai Nawabganj",
     "amount": 12
   },
   {
     "id": 5,
-    "name": "Amrapali Mango - 23kg",
-    "description": "A hybrid variety with deep orange flesh, known for its sweetness and longer shelf life.",
-    "price": 2760.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "Hybrid",
-    "rating": 4.7,
-    "reviews": 150,
+    "name": "Himsagar - 23kg",
+    "description": "A popular variety with fiberless, juicy pulp and a rich aroma.",
+    "price": 2229.00,
+    "image": "/mangoes/himsagar2.jpg",
+    "badge": "Peak Hour",
+    "rating": 4.9,
+    "reviews": 160,
     "category": "Seasonal",
-    "slug": "amrapali-mango-23kg",
+    "slug": "himsagar-mango-23kg",
     "featured": true,
     "priority": 5,
     "attributes": ["gluten-free"],
-    "origin": "Naogaon",
+    "origin": "Chapai Nawabganj",
     "amount": 23
   },
   {
     "id": 6,
-    "name": "Amrapali Mango - 46kg",
-    "description": "A hybrid variety with deep orange flesh, known for its sweetness and longer shelf life.",
-    "price": 5520.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "Hybrid",
-    "rating": 4.7,
-    "reviews": 150,
+    "name": "Himsagar - 46kg",
+    "description": "A popular variety with fiberless, juicy pulp and a rich aroma.",
+    "price": 4279.00,
+    "image": "/mangoes/himsagar3.jpg",
+    "badge": "Peak Hour",
+    "rating": 4.9,
+    "reviews": 160,
     "category": "Seasonal",
-    "slug": "amrapali-mango-46kg",
+    "slug": "himsagar-mango-46kg",
     "featured": true,
     "priority": 6,
     "attributes": ["gluten-free"],
-    "origin": "Naogaon",
+    "origin": "Chapai Nawabganj",
     "amount": 46
   },
   {
     "id": 7,
-    "name": "Langra Mango - 12kg",
-    "description": "A mid-season mango with greenish skin even when ripe, offering a unique sweet-sour flavor.",
-    "price": 1500.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "Mid Season",
-    "rating": 4.6,
-    "reviews": 110,
+    "name": "Khirsapat - 12kg",
+    "description": "Premium Khirsapat mangoes from Chapainawabganj, celebrated for their sweet, fiberless flesh and rich aroma.",
+    "price": 1189.00,
+    "image": "/mangoes/khirsapat1.jpg",
+    "badge": "Peak Hour",
+    "rating": 4.8,
+    "reviews": 102,
     "category": "Seasonal",
-    "slug": "langra-mango-12kg",
-    "featured": false,
+    "slug": "khirsapat-mango-12kg",
+    "featured": true,
     "priority": 7,
     "attributes": ["gluten-free"],
     "origin": "Chapai Nawabganj",
@@ -163,16 +163,16 @@ const products = [
   },
   {
     "id": 8,
-    "name": "Langra Mango - 23kg",
-    "description": "A mid-season mango with greenish skin even when ripe, offering a unique sweet-sour flavor.",
-    "price": 2875.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "Mid Season",
-    "rating": 4.6,
-    "reviews": 110,
+    "name": "Khirsapat - 23kg",
+    "description": "Bulk pack of Khirsapat mangoes, perfect for gatherings or sharing. Enjoy the authentic taste of Chapainawabganj's finest.",
+    "price": 2229.00,
+    "image": "/mangoes/khirsapat2.jpg",
+    "badge": "Peak Hour",
+    "rating": 4.8,
+    "reviews": 102,
     "category": "Seasonal",
-    "slug": "langra-mango-23kg",
-    "featured": false,
+    "slug": "khirsapat-mango-23kg",
+    "featured": true,
     "priority": 8,
     "attributes": ["gluten-free"],
     "origin": "Chapai Nawabganj",
@@ -180,16 +180,16 @@ const products = [
   },
   {
     "id": 9,
-    "name": "Langra Mango - 46kg",
-    "description": "A mid-season mango with greenish skin even when ripe, offering a unique sweet-sour flavor.",
-    "price": 5750.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "Mid Season",
-    "rating": 4.6,
-    "reviews": 110,
+    "name": "Khirsapat - 46kg",
+    "description": "Family-sized pack of Khirsapat mangoes, ensuring everyone gets a taste of this delightful variety.",
+    "price": 4279.00,
+    "image": "/mangoes/khirsapat3.jpg",
+    "badge": "Peak Hour",
+    "rating": 4.8,
+    "reviews": 102,
     "category": "Seasonal",
-    "slug": "langra-mango-46kg",
-    "featured": false,
+    "slug": "khirsapat-mango-46kg",
+    "featured": true,
     "priority": 9,
     "attributes": ["gluten-free"],
     "origin": "Chapai Nawabganj",
@@ -197,259 +197,107 @@ const products = [
   },
   {
     "id": 10,
-    "name": "Guthi Mango - 12kg",
-    "description": "A traditional variety known for its rich flavor and juicy pulp.",
-    "price": 1440.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "Traditional",
-    "rating": 4.4,
-    "reviews": 90,
+    "name": "Amrapali - 12kg",
+    "description": "A hybrid variety with deep orange flesh, known for its sweetness and longer shelf life.",
+    "price": 0,
+    "image": "/vercel.png",
+    "badge": "Harvesting",
+    "rating": 4.7,
+    "reviews": 150,
     "category": "Seasonal",
-    "slug": "guthi-mango-12kg",
-    "featured": false,
-    "priority": 10,
+    "slug": "amrapali-mango-12kg",
+    "featured": true,
+    "priority": 14,
     "attributes": ["gluten-free"],
-    "origin": "Rajshahi",
+    "origin": "Naogaon",
     "amount": 12
   },
   {
     "id": 11,
-    "name": "Guthi Mango - 23kg",
-    "description": "A traditional variety known for its rich flavor and juicy pulp.",
-    "price": 2760.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "Traditional",
-    "rating": 4.4,
-    "reviews": 90,
+    "name": "Amrapali - 23kg",
+    "description": "A hybrid variety with deep orange flesh, known for its sweetness and longer shelf life.",
+    "price": 0,
+    "image": "/vercel.png",
+    "badge": "Harvesting",
+    "rating": 4.7,
+    "reviews": 150,
     "category": "Seasonal",
-    "slug": "guthi-mango-23kg",
-    "featured": false,
-    "priority": 11,
+    "slug": "amrapali-mango-23kg",
+    "featured": true,
+    "priority": 15,
     "attributes": ["gluten-free"],
-    "origin": "Rajshahi",
+    "origin": "Naogaon",
     "amount": 23
   },
   {
     "id": 12,
-    "name": "Guthi Mango - 46kg",
-    "description": "A traditional variety known for its rich flavor and juicy pulp.",
-    "price": 5520.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "Traditional",
-    "rating": 4.4,
-    "reviews": 90,
+    "name": "Amrapali - 46kg",
+    "description": "A hybrid variety with deep orange flesh, known for its sweetness and longer shelf life.",
+    "price": 0,
+    "image": "/vercel.png",
+    "badge": "Harvesting",
+    "rating": 4.7,
+    "reviews": 150,
     "category": "Seasonal",
-    "slug": "guthi-mango-46kg",
-    "featured": false,
-    "priority": 12,
+    "slug": "amrapali-mango-46kg",
+    "featured": true,
+    "priority": 16,
     "attributes": ["gluten-free"],
-    "origin": "Rajshahi",
+    "origin": "Naogaon",
     "amount": 46
   },
   {
     "id": 13,
-    "name": "Fazli Mango - 12kg",
-    "description": "A large-sized mango, ideal for pickles and jams, with a sweet and slightly acidic taste.",
-    "price": 1560.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "Late Season",
-    "rating": 4.8,
-    "reviews": 130,
+    "name": "Langra - 12kg",
+    "description": "A mid-season mango with greenish skin even when ripe, offering a unique sweet-sour flavor.",
+    "price": 0,
+    "image": "/vercel.png",
+    "badge": "coming soon",
+    "rating": 4.6,
+    "reviews": 110,
     "category": "Seasonal",
-    "slug": "fazli-mango-12kg",
-    "featured": true,
-    "priority": 13,
+    "slug": "langra-mango-12kg",
+    "featured": false,
+    "priority": 17,
     "attributes": ["gluten-free"],
-    "origin": "Rajshahi",
+    "origin": "Chapai Nawabganj",
     "amount": 12
   },
   {
     "id": 14,
-    "name": "Fazli Mango - 23kg",
-    "description": "A large-sized mango, ideal for pickles and jams, with a sweet and slightly acidic taste.",
-    "price": 2990.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "Late Season",
-    "rating": 4.8,
-    "reviews": 130,
+    "name": "Langra - 23kg",
+    "description": "A mid-season mango with greenish skin even when ripe, offering a unique sweet-sour flavor.",
+    "price": 0,
+    "image": "/vercel.png",
+    "badge": "coming soon",
+    "rating": 4.6,
+    "reviews": 110,
     "category": "Seasonal",
-    "slug": "fazli-mango-23kg",
-    "featured": true,
-    "priority": 14,
+    "slug": "langra-mango-23kg",
+    "featured": false,
+    "priority": 18,
     "attributes": ["gluten-free"],
-    "origin": "Rajshahi",
+    "origin": "Chapai Nawabganj",
     "amount": 23
   },
   {
     "id": 15,
-    "name": "Fazli Mango - 46kg",
-    "description": "A large-sized mango, ideal for pickles and jams, with a sweet and slightly acidic taste.",
-    "price": 5980.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "Late Season",
-    "rating": 4.8,
-    "reviews": 130,
+    "name": "Langra - 46kg",
+    "description": "A mid-season mango with greenish skin even when ripe, offering a unique sweet-sour flavor.",
+    "price": 0,
+    "image": "/vercel.png",
+    "badge": "coming soon",
+    "rating": 4.6,
+    "reviews": 110,
     "category": "Seasonal",
-    "slug": "fazli-mango-46kg",
-    "featured": true,
-    "priority": 15,
-    "attributes": ["gluten-free"],
-    "origin": "Rajshahi",
-    "amount": 46
-  },
-  {
-    "id": 16,
-    "name": "Ashwina Mango - 12kg",
-    "description": "A late-season mango with a firm texture and balanced sweetness.",
-    "price": 1500.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "Late Season",
-    "rating": 4.3,
-    "reviews": 85,
-    "category": "Seasonal",
-    "slug": "ashwina-mango-12kg",
+    "slug": "langra-mango-46kg",
     "featured": false,
-    "priority": 16,
-    "attributes": ["gluten-free"],
-    "origin": "Naogaon",
-    "amount": 12
-  },
-  {
-    "id": 17,
-    "name": "Ashwina Mango - 23kg",
-    "description": "A late-season mango with a firm texture and balanced sweetness.",
-    "price": 2875.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "Late Season",
-    "rating": 4.3,
-    "reviews": 85,
-    "category": "Seasonal",
-    "slug": "ashwina-mango-23kg",
-    "featured": false,
-    "priority": 17,
-    "attributes": ["gluten-free"],
-    "origin": "Naogaon",
-    "amount": 23
-  },
-  {
-    "id": 18,
-    "name": "Ashwina Mango - 46kg",
-    "description": "A late-season mango with a firm texture and balanced sweetness.",
-    "price": 5750.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "Late Season",
-    "rating": 4.3,
-    "reviews": 85,
-    "category": "Seasonal",
-    "slug": "ashwina-mango-46kg",
-    "featured": false,
-    "priority": 18,
-    "attributes": ["gluten-free"],
-    "origin": "Naogaon",
-    "amount": 46
-  },
-  {
-    "id": 19,
-    "name": "Himsagar Mango - 12kg",
-    "description": "A popular variety with fiberless, juicy pulp and a rich aroma.",
-    "price": 1620.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "GI Certified",
-    "rating": 4.9,
-    "reviews": 160,
-    "category": "Seasonal",
-    "slug": "himsagar-mango-12kg",
-    "featured": true,
     "priority": 19,
-    "attributes": ["gluten-free"],
-    "origin": "Chapai Nawabganj",
-    "amount": 12
-  },
-  {
-    "id": 20,
-    "name": "Himsagar Mango - 23kg",
-    "description": "A popular variety with fiberless, juicy pulp and a rich aroma.",
-    "price": 3105.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "GI Certified",
-    "rating": 4.9,
-    "reviews": 160,
-    "category": "Seasonal",
-    "slug": "himsagar-mango-23kg",
-    "featured": true,
-    "priority": 20,
-    "attributes": ["gluten-free"],
-    "origin": "Chapai Nawabganj",
-    "amount": 23
-  },
-  {
-    "id": 21,
-    "name": "Himsagar Mango - 46kg",
-    "description": "A popular variety with fiberless, juicy pulp and a rich aroma.",
-    "price": 6210.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "GI Certified",
-    "rating": 4.9,
-    "reviews": 160,
-    "category": "Seasonal",
-    "slug": "himsagar-mango-46kg",
-    "featured": true,
-    "priority": 21,
-    "attributes": ["gluten-free"],
-    "origin": "Chapai Nawabganj",
-    "amount": 46
-  },
-  {
-    "id": 22,
-    "name": "Khirsapat Mango - 12kg",
-    "description": "Premium Khirsapat mangoes from Chapainawabganj, celebrated for their sweet, fiberless flesh and rich aroma.",
-    "price": 1440.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "GI Certified",
-    "rating": 4.8,
-    "reviews": 102,
-    "category": "Seasonal",
-    "slug": "khirsapat-mango-12kg",
-    "featured": true,
-    "priority": 22,
-    "attributes": ["gluten-free"],
-    "origin": "Chapai Nawabganj",
-    "amount": 12
-  },
-  {
-    "id": 23,
-    "name": "Khirsapat Mango - 23kg",
-    "description": "Bulk pack of Khirsapat mangoes, perfect for gatherings or sharing. Enjoy the authentic taste of Chapainawabganj's finest.",
-    "price": 2760.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "GI Certified",
-    "rating": 4.8,
-    "reviews": 102,
-    "category": "Seasonal",
-    "slug": "khirsapat-mango-23kg",
-    "featured": true,
-    "priority": 23,
-    "attributes": ["gluten-free"],
-    "origin": "Chapai Nawabganj",
-    "amount": 23
-  },
-  {
-    "id": 24,
-    "name": "Khirsapat Mango - 46kg",
-    "description": "Family-sized pack of Khirsapat mangoes, ensuring everyone gets a taste of this delightful variety.",
-    "price": 5520.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "GI Certified",
-    "rating": 4.8,
-    "reviews": 102,
-    "category": "Seasonal",
-    "slug": "khirsapat-mango-46kg",
-    "featured": true,
-    "priority": 24,
     "attributes": ["gluten-free"],
     "origin": "Chapai Nawabganj",
     "amount": 46
   }
+ 
 ].map((product, i) => ({
   ...product,
   reviewsList: [reviewsData[i % reviewsData.length]],
@@ -748,74 +596,53 @@ export default function ProductGrid() {
       
       {/* Masonry Grid Layout */}
       {filteredProducts.length > 0 && (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {filteredProducts.map((product) => (
-            <div 
-              key={product.id}
-              className="group rounded-2xl overflow-hidden bg-white border border-gray-200 hover:border-[#FDBE02] hover:shadow-xl transition-all duration-300 h-[450px] flex flex-col"
+             <div 
+              key={product.id} 
+              className="bg-white rounded-xl overflow-hidden group cursor-pointer transform hover:-translate-y-1 transition-all duration-500 hover:shadow-[0_10px_20px_rgba(249,168,37,0.2)] relative"
             >
-              <Link href={`/product/${product.slug}`} className="relative block h-full flex flex-col">
-                {/* Product Image Container */}
-                <div 
-                  className="relative overflow-hidden h-[250px] w-full bg-gray-100"
-                  onMouseEnter={() => setHoveredProduct(product.id)}
-                  onMouseLeave={() => setHoveredProduct(null)}
-                >
-                  {/* Product Badge */}
-                  {product.badge && (
-                    <div className={`absolute top-3 left-3 z-10 px-3 py-1 rounded-full text-xs font-medium text-white ${
-                      product.badge === 'Sale' ? 'bg-red-500' :
-                      product.badge === 'New' ? 'bg-[#f57f17]' :
-                      product.badge === 'Bestseller' ? 'bg-[#FDBE02]' :
-                      product.badge === 'Limited' ? 'bg-purple-600' :
-                      product.badge === 'Organic' ? 'bg-green-600' :
-                      product.badge === 'Seasonal' ? 'bg-blue-500' :
-                      'bg-gray-700'
-                    }`}>
-                      {product.badge}
-                    </div>
-                  )}
-                  
-                  {/* Product Image */}
-                  <ProductImage 
-                    src={product.image} 
-                    alt={product.name}
-                    className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 ease-in-out"
-                  />
-                  {/* Removed Action Buttons Overlay (view, love, cart) */}
-                </div>
+              {/* Image container with overlay effect */}
+              <div className="relative w-full pb-[75%] overflow-hidden">
+                {/* Hover overlay */}
+                <div className="absolute inset-0 bg-gradient-to-t from-[#f57f17]/70 to-transparent z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 
-                {/* Product Info */}
-                <div className="p-4 flex flex-col flex-grow">
-                  <h3 className="font-semibold text-gray-800 mb-1 group-hover:text-[#f57f17] transition-colors line-clamp-1">
-                    {product.name}
-                  </h3>
-                  
-                  <p className="text-gray-600 text-sm mb-3 line-clamp-2 flex-grow">
-                    {product.description}
-                  </p>
-                  
-                  <div className="flex items-center justify-between mt-auto">
-                    <div className="flex items-baseline">
-                      {product.originalPrice && (
-                        <span className="text-gray-400 line-through text-sm mr-2">
-                          {product.originalPrice ? `৳${product.originalPrice.toFixed(2)}` : ''}
-                        </span>
-                      )}
-                      <span className="font-bold text-lg text-[#f57f17]">
-                        ৳{product.price.toFixed(2)}
-                      </span>
-                    </div>
-                    
-                    <button 
-                      className="text-xs px-3 py-1 rounded-full bg-[#f8f4e9] text-[#f57f17] hover:bg-[#f57f17] hover:text-white transition-colors"
-                      onClick={(e) => addToCart(e, product.id)}
-                    >
-                      Add to Cart
-                    </button>
-                  </div>
+                {/* Quick action buttons that appear on hover */}
+            
+                
+                {/* Product image with zoom effect */}
+                <Image 
+                  src={product.image}
+                  alt={product.name}
+                  fill
+                  style={{objectFit: 'cover'}}
+                  sizes="(max-width: 640px) 45vw, (max-width: 768px) 33vw, 25vw"
+                  className="transition-transform duration-700 group-hover:scale-110"
+                />
+                
+                {/* Badge with pulse animation */}
+                {product.badge && (
+                  <span className="absolute top-2 right-2 bg-[#e65100] text-white text-[10px] md:text-xs font-bold px-2 py-0.5 rounded-full z-10 shadow-sm animate-pulse">
+                    {product.badge}
+                  </span>
+                )}
+              </div>
+              
+              {/* Product info with staggered reveal on hover */}
+              <div className="p-3 md:p-4">
+                <h3 className="font-bold text-sm md:text-base mb-1 text-[#333333] group-hover:text-[#f57f17] transition-colors duration-300 truncate">{product.name}</h3>
+                <p className="text-[#555555] text-xs mb-3 line-clamp-2 transition-all duration-300 group-hover:text-[#333333]">{product.description}</p>
+                <div className="flex justify-between items-center">
+                  <span className="font-bold text-sm md:text-base text-[#2e7d32] transition-all duration-300 group-hover:scale-110 inline-block">৳{product.price}</span>
+                  <button className="bg-[#f9a825] text-[#333333] px-3 py-1.5 rounded-full text-xs font-medium group-hover:bg-[#f57f17] group-hover:text-white transition-all duration-300 relative overflow-hidden shadow-sm">
+                    <span className="relative z-10">Add to Cart</span>
+                    <span className="absolute inset-0 bg-white/20 transform -skew-x-12 -translate-x-full group-hover:translate-x-full transition-transform duration-700"></span>
+                  </button>
                 </div>
-              </Link>
+              </div>
+              
+              {/* Corner decorative element */}
+              <div className="absolute -bottom-4 -right-4 w-8 h-8 rounded-full bg-[#f9a825]/10 transition-all duration-500 group-hover:scale-150 group-hover:bg-[#f9a825]/20"></div>
             </div>
           ))}
         </div>

@@ -27,14 +27,14 @@ const origins = [
   { id: 'Chapai Nawabganj', name: 'Chapai Nawabganj' },
 ];
 
-// const badges = [
-//   { id: 'Early Season', name: 'Early Season' },
-//   { id: 'Hybrid', name: 'Hybrid' },
-//   { id: 'Mid Season', name: 'Mid Season' },
-//   { id: 'Traditional', name: 'Traditional' },
-//   { id: 'Late Season', name: 'Late Season' },
-//   { id: 'GI Certified', name: 'GI Certified' },
-// ];
+const badges = [
+  { id: 'Early Season', name: 'Early Season' },
+  { id: 'Hybrid', name: 'Hybrid' },
+  { id: 'Mid Season', name: 'Mid Season' },
+  { id: 'Traditional', name: 'Traditional' },
+  { id: 'Late Season', name: 'Late Season' },
+  { id: 'GI Certified', name: 'GI Certified' },
+];
 
 const amounts = [12, 23, 46];
 
