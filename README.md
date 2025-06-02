@@ -2,7 +2,7 @@
 
 AamGo is a modern, responsive e-commerce platform specializing in premium quality mangoes. Built with Next.js and Tailwind CSS, it offers a seamless shopping experience for mango enthusiasts.
 
-![AamGo Banner](public/images/banner.jpg)
+![আমGO Banner](public/images/banner.jpg)
 
 ## ✨ Features
 
