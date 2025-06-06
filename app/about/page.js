@@ -290,7 +290,7 @@ export default function AboutPage() {
                 }}
               >
                 <img 
-                  src="https://images.unsplash.com/photo-1591073113125-e46713c829ed?q=80&w=1974" 
+                  src="https://res.cloudinary.com/chirkut/image/upload/v1749225626/IMG_20250606_215613_w6ew3r.jpg" 
                   alt="Mango orchard" 
                   className="w-full h-full object-cover"
                 />
