@@ -6,13 +6,13 @@ import { MagnifyingGlassIcon, XMarkIcon } from '@heroicons/react/24/outline';
 
 // Import product data from ProductGrid
 const products = [
-  {
+    {
     "id": 1,
-    "name": "Gopalbhog Mango - 12kg",
+    "name": "Gopalbhog - 12kg",
     "description": "An early-season mango known for its sweet taste and minimal fiber content.",
-    "price": 1320.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "Early Season",
+    "price": 1270.00,
+    "image": "/mangoes/gopal1.jpg",
+    "badge": "Stock Ending",
     "rating": 4.5,
     "reviews": 120,
     "category": "Seasonal",
@@ -25,11 +25,11 @@ const products = [
   },
   {
     "id": 2,
-    "name": "Gopalbhog Mango - 23kg",
+    "name": "Gopalbhog - 23kg",
     "description": "An early-season mango known for its sweet taste and minimal fiber content.",
-    "price": 2530.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "Early Season",
+    "price": 2299.00,
+    "image": "/mangoes/gopal2.jpg",
+    "badge": "Stock Ending",
     "rating": 4.5,
     "reviews": 120,
     "category": "Seasonal",
@@ -42,11 +42,11 @@ const products = [
   },
   {
     "id": 3,
-    "name": "Gopalbhog Mango - 46kg",
+    "name": "Gopalbhog - 46kg",
     "description": "An early-season mango known for its sweet taste and minimal fiber content.",
-    "price": 5060.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "Early Season",
+    "price": 4349.00,
+    "image": "/mangoes/gopal3.jpg",
+    "badge": "Stock Ending",
     "rating": 4.5,
     "reviews": 120,
     "category": "Seasonal",
@@ -57,69 +57,69 @@ const products = [
     "origin": "Rajshahi",
     "amount": 46
   },
-  {
+   {
     "id": 4,
-    "name": "Amrapali Mango - 12kg",
-    "description": "A hybrid variety with deep orange flesh, known for its sweetness and longer shelf life.",
-    "price": 1440.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "Hybrid",
-    "rating": 4.7,
-    "reviews": 150,
+    "name": "Himsagar - 12kg",
+    "description": "A popular variety with fiberless, juicy pulp and a rich aroma.",
+    "price": 1189.00,
+    "image": "/mangoes/himsagar1.jpg",
+    "badge": "Peak Hour",
+    "rating": 4.9,
+    "reviews": 160,
     "category": "Seasonal",
-    "slug": "amrapali-mango-12kg",
+    "slug": "himsagar-mango-12kg",
     "featured": true,
     "priority": 4,
     "attributes": ["gluten-free"],
-    "origin": "Naogaon",
+    "origin": "Chapai Nawabganj",
     "amount": 12
   },
   {
     "id": 5,
-    "name": "Amrapali Mango - 23kg",
-    "description": "A hybrid variety with deep orange flesh, known for its sweetness and longer shelf life.",
-    "price": 2760.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "Hybrid",
-    "rating": 4.7,
-    "reviews": 150,
+    "name": "Himsagar - 23kg",
+    "description": "A popular variety with fiberless, juicy pulp and a rich aroma.",
+    "price": 2229.00,
+    "image": "/mangoes/himsagar2.jpg",
+    "badge": "Peak Hour",
+    "rating": 4.9,
+    "reviews": 160,
     "category": "Seasonal",
-    "slug": "amrapali-mango-23kg",
+    "slug": "himsagar-mango-23kg",
     "featured": true,
     "priority": 5,
     "attributes": ["gluten-free"],
-    "origin": "Naogaon",
+    "origin": "Chapai Nawabganj",
     "amount": 23
   },
   {
     "id": 6,
-    "name": "Amrapali Mango - 46kg",
-    "description": "A hybrid variety with deep orange flesh, known for its sweetness and longer shelf life.",
-    "price": 5520.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "Hybrid",
-    "rating": 4.7,
-    "reviews": 150,
+    "name": "Himsagar - 46kg",
+    "description": "A popular variety with fiberless, juicy pulp and a rich aroma.",
+    "price": 4279.00,
+    "image": "/mangoes/himsagar3.jpg",
+    "badge": "Peak Hour",
+    "rating": 4.9,
+    "reviews": 160,
     "category": "Seasonal",
-    "slug": "amrapali-mango-46kg",
+    "slug": "himsagar-mango-46kg",
     "featured": true,
     "priority": 6,
     "attributes": ["gluten-free"],
-    "origin": "Naogaon",
+    "origin": "Chapai Nawabganj",
     "amount": 46
   },
   {
     "id": 7,
-    "name": "Langra Mango - 12kg",
-    "description": "A mid-season mango with greenish skin even when ripe, offering a unique sweet-sour flavor.",
-    "price": 1500.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "Mid Season",
-    "rating": 4.6,
-    "reviews": 110,
+    "name": "Khirsapat - 12kg",
+    "description": "Premium Khirsapat mangoes from Chapainawabganj, celebrated for their sweet, fiberless flesh and rich aroma.",
+    "price": 1189.00,
+    "image": "/mangoes/khirsapat1.jpg",
+    "badge": "Peak Hour",
+    "rating": 4.8,
+    "reviews": 102,
     "category": "Seasonal",
-    "slug": "langra-mango-12kg",
-    "featured": false,
+    "slug": "khirsapat-mango-12kg",
+    "featured": true,
     "priority": 7,
     "attributes": ["gluten-free"],
     "origin": "Chapai Nawabganj",
@@ -127,16 +127,16 @@ const products = [
   },
   {
     "id": 8,
-    "name": "Langra Mango - 23kg",
-    "description": "A mid-season mango with greenish skin even when ripe, offering a unique sweet-sour flavor.",
-    "price": 2875.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "Mid Season",
-    "rating": 4.6,
-    "reviews": 110,
+    "name": "Khirsapat - 23kg",
+    "description": "Bulk pack of Khirsapat mangoes, perfect for gatherings or sharing. Enjoy the authentic taste of Chapainawabganj's finest.",
+    "price": 2229.00,
+    "image": "/mangoes/khirsapat2.jpg",
+    "badge": "Peak Hour",
+    "rating": 4.8,
+    "reviews": 102,
     "category": "Seasonal",
-    "slug": "langra-mango-23kg",
-    "featured": false,
+    "slug": "khirsapat-mango-23kg",
+    "featured": true,
     "priority": 8,
     "attributes": ["gluten-free"],
     "origin": "Chapai Nawabganj",
@@ -144,16 +144,16 @@ const products = [
   },
   {
     "id": 9,
-    "name": "Langra Mango - 46kg",
-    "description": "A mid-season mango with greenish skin even when ripe, offering a unique sweet-sour flavor.",
-    "price": 5750.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "Mid Season",
-    "rating": 4.6,
-    "reviews": 110,
+    "name": "Khirsapat - 46kg",
+    "description": "Family-sized pack of Khirsapat mangoes, ensuring everyone gets a taste of this delightful variety.",
+    "price": 4279.00,
+    "image": "/mangoes/khirsapat3.jpg",
+    "badge": "Peak Hour",
+    "rating": 4.8,
+    "reviews": 102,
     "category": "Seasonal",
-    "slug": "langra-mango-46kg",
-    "featured": false,
+    "slug": "khirsapat-mango-46kg",
+    "featured": true,
     "priority": 9,
     "attributes": ["gluten-free"],
     "origin": "Chapai Nawabganj",
@@ -161,255 +161,102 @@ const products = [
   },
   {
     "id": 10,
-    "name": "Guthi Mango - 12kg",
-    "description": "A traditional variety known for its rich flavor and juicy pulp.",
-    "price": 1440.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "Traditional",
-    "rating": 4.4,
-    "reviews": 90,
+    "name": "Amrapali - 12kg",
+    "description": "A hybrid variety with deep orange flesh, known for its sweetness and longer shelf life.",
+    "price": 0,
+    "image": "/vercel.png",
+    "badge": "Harvesting",
+    "rating": 4.7,
+    "reviews": 150,
     "category": "Seasonal",
-    "slug": "guthi-mango-12kg",
-    "featured": false,
-    "priority": 10,
+    "slug": "amrapali-mango-12kg",
+    "featured": true,
+    "priority": 14,
     "attributes": ["gluten-free"],
-    "origin": "Rajshahi",
+    "origin": "Naogaon",
     "amount": 12
   },
   {
     "id": 11,
-    "name": "Guthi Mango - 23kg",
-    "description": "A traditional variety known for its rich flavor and juicy pulp.",
-    "price": 2760.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "Traditional",
-    "rating": 4.4,
-    "reviews": 90,
+    "name": "Amrapali - 23kg",
+    "description": "A hybrid variety with deep orange flesh, known for its sweetness and longer shelf life.",
+    "price": 0,
+    "image": "/vercel.png",
+    "badge": "Harvesting",
+    "rating": 4.7,
+    "reviews": 150,
     "category": "Seasonal",
-    "slug": "guthi-mango-23kg",
-    "featured": false,
-    "priority": 11,
+    "slug": "amrapali-mango-23kg",
+    "featured": true,
+    "priority": 15,
     "attributes": ["gluten-free"],
-    "origin": "Rajshahi",
+    "origin": "Naogaon",
     "amount": 23
   },
   {
     "id": 12,
-    "name": "Guthi Mango - 46kg",
-    "description": "A traditional variety known for its rich flavor and juicy pulp.",
-    "price": 5520.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "Traditional",
-    "rating": 4.4,
-    "reviews": 90,
+    "name": "Amrapali - 46kg",
+    "description": "A hybrid variety with deep orange flesh, known for its sweetness and longer shelf life.",
+    "price": 0,
+    "image": "/vercel.png",
+    "badge": "Harvesting",
+    "rating": 4.7,
+    "reviews": 150,
     "category": "Seasonal",
-    "slug": "guthi-mango-46kg",
-    "featured": false,
-    "priority": 12,
+    "slug": "amrapali-mango-46kg",
+    "featured": true,
+    "priority": 16,
     "attributes": ["gluten-free"],
-    "origin": "Rajshahi",
+    "origin": "Naogaon",
     "amount": 46
   },
   {
     "id": 13,
-    "name": "Fazli Mango - 12kg",
-    "description": "A large-sized mango, ideal for pickles and jams, with a sweet and slightly acidic taste.",
-    "price": 1560.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "Late Season",
-    "rating": 4.8,
-    "reviews": 130,
+    "name": "Langra - 12kg",
+    "description": "A mid-season mango with greenish skin even when ripe, offering a unique sweet-sour flavor.",
+    "price": 0,
+    "image": "/vercel.png",
+    "badge": "coming soon",
+    "rating": 4.6,
+    "reviews": 110,
     "category": "Seasonal",
-    "slug": "fazli-mango-12kg",
-    "featured": true,
-    "priority": 13,
+    "slug": "langra-mango-12kg",
+    "featured": false,
+    "priority": 17,
     "attributes": ["gluten-free"],
-    "origin": "Rajshahi",
+    "origin": "Chapai Nawabganj",
     "amount": 12
   },
   {
     "id": 14,
-    "name": "Fazli Mango - 23kg",
-    "description": "A large-sized mango, ideal for pickles and jams, with a sweet and slightly acidic taste.",
-    "price": 2990.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "Late Season",
-    "rating": 4.8,
-    "reviews": 130,
+    "name": "Langra - 23kg",
+    "description": "A mid-season mango with greenish skin even when ripe, offering a unique sweet-sour flavor.",
+    "price": 0,
+    "image": "/vercel.png",
+    "badge": "coming soon",
+    "rating": 4.6,
+    "reviews": 110,
     "category": "Seasonal",
-    "slug": "fazli-mango-23kg",
-    "featured": true,
-    "priority": 14,
+    "slug": "langra-mango-23kg",
+    "featured": false,
+    "priority": 18,
     "attributes": ["gluten-free"],
-    "origin": "Rajshahi",
+    "origin": "Chapai Nawabganj",
     "amount": 23
   },
   {
     "id": 15,
-    "name": "Fazli Mango - 46kg",
-    "description": "A large-sized mango, ideal for pickles and jams, with a sweet and slightly acidic taste.",
-    "price": 5980.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "Late Season",
-    "rating": 4.8,
-    "reviews": 130,
+    "name": "Langra - 46kg",
+    "description": "A mid-season mango with greenish skin even when ripe, offering a unique sweet-sour flavor.",
+    "price": 0,
+    "image": "/vercel.png",
+    "badge": "coming soon",
+    "rating": 4.6,
+    "reviews": 110,
     "category": "Seasonal",
-    "slug": "fazli-mango-46kg",
-    "featured": true,
-    "priority": 15,
-    "attributes": ["gluten-free"],
-    "origin": "Rajshahi",
-    "amount": 46
-  },
-  {
-    "id": 16,
-    "name": "Ashwina Mango - 12kg",
-    "description": "A late-season mango with a firm texture and balanced sweetness.",
-    "price": 1500.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "Late Season",
-    "rating": 4.3,
-    "reviews": 85,
-    "category": "Seasonal",
-    "slug": "ashwina-mango-12kg",
+    "slug": "langra-mango-46kg",
     "featured": false,
-    "priority": 16,
-    "attributes": ["gluten-free"],
-    "origin": "Naogaon",
-    "amount": 12
-  },
-  {
-    "id": 17,
-    "name": "Ashwina Mango - 23kg",
-    "description": "A late-season mango with a firm texture and balanced sweetness.",
-    "price": 2875.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "Late Season",
-    "rating": 4.3,
-    "reviews": 85,
-    "category": "Seasonal",
-    "slug": "ashwina-mango-23kg",
-    "featured": false,
-    "priority": 17,
-    "attributes": ["gluten-free"],
-    "origin": "Naogaon",
-    "amount": 23
-  },
-  {
-    "id": 18,
-    "name": "Ashwina Mango - 46kg",
-    "description": "A late-season mango with a firm texture and balanced sweetness.",
-    "price": 5750.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "Late Season",
-    "rating": 4.3,
-    "reviews": 85,
-    "category": "Seasonal",
-    "slug": "ashwina-mango-46kg",
-    "featured": false,
-    "priority": 18,
-    "attributes": ["gluten-free"],
-    "origin": "Naogaon",
-    "amount": 46
-  },
-  {
-    "id": 19,
-    "name": "Himsagar Mango - 12kg",
-    "description": "A popular variety with fiberless, juicy pulp and a rich aroma.",
-    "price": 1620.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "GI Certified",
-    "rating": 4.9,
-    "reviews": 160,
-    "category": "Seasonal",
-    "slug": "himsagar-mango-12kg",
-    "featured": true,
     "priority": 19,
-    "attributes": ["gluten-free"],
-    "origin": "Chapai Nawabganj",
-    "amount": 12
-  },
-  {
-    "id": 20,
-    "name": "Himsagar Mango - 23kg",
-    "description": "A popular variety with fiberless, juicy pulp and a rich aroma.",
-    "price": 3105.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "GI Certified",
-    "rating": 4.9,
-    "reviews": 160,
-    "category": "Seasonal",
-    "slug": "himsagar-mango-23kg",
-    "featured": true,
-    "priority": 20,
-    "attributes": ["gluten-free"],
-    "origin": "Chapai Nawabganj",
-    "amount": 23
-  },
-  {
-    "id": 21,
-    "name": "Himsagar Mango - 46kg",
-    "description": "A popular variety with fiberless, juicy pulp and a rich aroma.",
-    "price": 6210.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "GI Certified",
-    "rating": 4.9,
-    "reviews": 160,
-    "category": "Seasonal",
-    "slug": "himsagar-mango-46kg",
-    "featured": true,
-    "priority": 21,
-    "attributes": ["gluten-free"],
-    "origin": "Chapai Nawabganj",
-    "amount": 46
-  },
-  {
-    "id": 22,
-    "name": "Khirsapat Mango - 12kg",
-    "description": "Premium Khirsapat mangoes from Chapainawabganj, celebrated for their sweet, fiberless flesh and rich aroma.",
-    "price": 1440.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "GI Certified",
-    "rating": 4.8,
-    "reviews": 102,
-    "category": "Seasonal",
-    "slug": "khirsapat-mango-12kg",
-    "featured": true,
-    "priority": 22,
-    "attributes": ["gluten-free"],
-    "origin": "Chapai Nawabganj",
-    "amount": 12
-  },
-  {
-    "id": 23,
-    "name": "Khirsapat Mango - 23kg",
-    "description": "Bulk pack of Khirsapat mangoes, perfect for gatherings or sharing. Enjoy the authentic taste of Chapainawabganj's finest.",
-    "price": 2760.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "GI Certified",
-    "rating": 4.8,
-    "reviews": 102,
-    "category": "Seasonal",
-    "slug": "khirsapat-mango-23kg",
-    "featured": true,
-    "priority": 23,
-    "attributes": ["gluten-free"],
-    "origin": "Chapai Nawabganj",
-    "amount": 23
-  },
-  {
-    "id": 24,
-    "name": "Khirsapat Mango - 46kg",
-    "description": "Family-sized pack of Khirsapat mangoes, ensuring everyone gets a taste of this delightful variety.",
-    "price": 5520.00,
-    "image": "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?q=80&w=1970",
-    "badge": "GI Certified",
-    "rating": 4.8,
-    "reviews": 102,
-    "category": "Seasonal",
-    "slug": "khirsapat-mango-46kg",
-    "featured": true,
-    "priority": 24,
     "attributes": ["gluten-free"],
     "origin": "Chapai Nawabganj",
     "amount": 46
@@ -670,11 +517,11 @@ export default function Navbar() {
         <div className="px-4 py-3 space-y-4 bg-white shadow-inner">
           {/* Mobile Search */}
           <div className="relative md:hidden search-container">
-            <div className="flex items-center border border-gray-300 rounded-full overflow-hidden px-3 py-2 focus-within:ring-2 focus-within:ring-[#359768] transition-all duration-300">
+            <div className="flex items-center border border-gray-300 rounded-full overflow-hidden px-3 py-2 focus-within:ring-2 focus-within:ring-[#d00031] transition-all duration-300">
               <input 
                 type="text" 
                 placeholder="Search for mangoes..." 
-                className="text-sm outline-none border-none bg-transparent w-full placeholder-[#359768] text-[#359768] font-medium"
+                className="text-sm outline-none border-none bg-transparent w-full placeholder-[#d00031] text-[#d00031] font-medium"
                 value={searchQuery}
                 onChange={handleSearch}
                 onFocus={() => searchResults.length > 0 && setShowResults(true)}
@@ -682,13 +529,13 @@ export default function Navbar() {
               {searchQuery ? (
                 <button 
                   onClick={clearSearch} 
-                  className="p-1 text-[#359768] hover:text-[#359768] transition-all duration-300"
+                  className="p-1 text-[#d00031] hover:text-[#d00031] transition-all duration-300"
                 >
-                  <XMarkIcon className="h-5 w-5 text-[#359768]" />
+                  <XMarkIcon className="h-5 w-5 text-[#d00031]" />
                 </button>
               ) : (
-                <button className="p-1 text-[#359768] hover:text-[#359768] transition-all duration-300">
-                  <MagnifyingGlassIcon className="h-5 w-5 text-[#359768]" />
+                <button className="p-1 text-[#d00031] hover:text-[#d00031] transition-all duration-300">
+                  <MagnifyingGlassIcon className="h-5 w-5 text-[#d00031]" />
                 </button>
               )}
             </div>
@@ -733,7 +580,7 @@ export default function Navbar() {
           <div className="flex flex-col space-y-2">
             <Link 
               href="/" 
-              className={`px-4 py-2 rounded-lg transition-all duration-300 ${activeLink === '/' ? 'bg-[#359768]/10 text-[#359768] font-medium' : 'text-[#359768] hover:bg-gray-100'}`}
+              className={`px-4 py-2 rounded-lg transition-all duration-300 ${activeLink === '/' ? 'bg-[#d00031]/10 text-[#d00031] font-medium' : 'text-[#d00031] hover:bg-gray-100'}`}
               onClick={() => {
                 setActiveLink('/');
                 setIsOpen(false);
@@ -743,7 +590,7 @@ export default function Navbar() {
             </Link>
             <Link 
               href="/shop" 
-              className={`px-4 py-2 rounded-lg transition-all duration-300 ${activeLink === '/shop' ? 'bg-[#359768]/10 text-[#359768] font-medium' : 'text-[#359768] hover:bg-gray-100'}`}
+              className={`px-4 py-2 rounded-lg transition-all duration-300 ${activeLink === '/shop' ? 'bg-[#d00031]/10 text-[#d00031] font-medium' : 'text-[#d00031] hover:bg-gray-100'}`}
               onClick={() => {
                 setActiveLink('/shop');
                 setIsOpen(false);
@@ -753,7 +600,7 @@ export default function Navbar() {
             </Link>
             <Link 
               href="/about" 
-              className={`px-4 py-2 rounded-lg transition-all duration-300 ${activeLink === '/about' ? 'bg-[#359768]/10 text-[#359768] font-medium' : 'text-[#359768] hover:bg-gray-100'}`}
+              className={`px-4 py-2 rounded-lg transition-all duration-300 ${activeLink === '/about' ? 'bg-[#d00031]/10 text-[#d00031] font-medium' : 'text-[#d00031] hover:bg-gray-100'}`}
               onClick={() => {
                 setActiveLink('/about');
                 setIsOpen(false);
@@ -763,7 +610,7 @@ export default function Navbar() {
             </Link>
             <Link 
               href="/blog" 
-              className={`px-4 py-2 rounded-lg transition-all duration-300 ${activeLink === '/blog' ? 'bg-[#359768]/10 text-[#359768] font-medium' : 'text-[#359768] hover:bg-gray-100'}`}
+              className={`px-4 py-2 rounded-lg transition-all duration-300 ${activeLink === '/blog' ? 'bg-[#d00031]/10 text-[#d00031] font-medium' : 'text-[#d00031] hover:bg-gray-100'}`}
               onClick={() => {
                 setActiveLink('/blog');
                 setIsOpen(false);
@@ -773,7 +620,7 @@ export default function Navbar() {
             </Link>
             <Link 
               href="/contact" 
-              className={`px-4 py-2 rounded-lg transition-all duration-300 ${activeLink === '/contact' ? 'bg-[#359768]/10 text-[#359768] font-medium' : 'text-[#359768] hover:bg-gray-100'}`}
+              className={`px-4 py-2 rounded-lg transition-all duration-300 ${activeLink === '/contact' ? 'bg-[#d00031]/10 text-[#d00031] font-medium' : 'text-[#d00031] hover:bg-gray-100'}`}
               onClick={() => {
                 setActiveLink('/contact');
                 setIsOpen(false);
