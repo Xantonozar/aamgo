@@ -113,7 +113,7 @@ export default function AboutPage() {
       id: 1,
       name: 'Motasim MIsbah Mredul',
       role: 'Founder & CEO',
-      image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1000',
+      image: '/misbah.jpg',
       bio: 'Misbah founded আমGO with a vision to bring premium mangoes to customers worldwide.',
     },
     {
@@ -127,14 +127,14 @@ export default function AboutPage() {
       id: 3,
       name: 'Md Shuvo Hasan JOy',
       role: 'Quality Assurance Manager',
-      image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1000',
+      image: '/shuvo.png',
       bio: 'Shuvo ensures that only the finest mangoes make it to your doorstep, maintaining our high standards of quality.',
     },
     {
       id: 4,
       name: 'Imtiaz  Ahmed',
       role: 'Overall Oparator ',
-      image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1000',
+      image: '/imtiaz.png',
       bio: 'Imtiaz take lead where we need aid and look after the overall missing pieces.',
     },
   ];
