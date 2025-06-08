@@ -9,7 +9,7 @@ export default function HeroSection() {
   const carouselItems = [
     {
       image: {
-        src: "/mangoes/himsaga1.jpg",
+        src: "/mangoes/himsagar4.jpg",
         alt: "Fresh mangoes on wooden table"
       },
       offer: {
@@ -19,7 +19,7 @@ export default function HeroSection() {
       },
       product: {
         name: "Quality Packeging",
-        image: "/mangoes/himsagar2.jpg",
+        image: "/mangoes/gopal1.jpg",
         rating: 5,
         badge: "Sweetest"
       }
