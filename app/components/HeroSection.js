@@ -31,7 +31,7 @@ export default function HeroSection() {
       },
       offer: {
         label: "Limited Time",
-        discount: "Few Weekss Remaining",
+        discount: "Few Weeks Remaining",
         subtext: "This month only"
       },
       product: {
