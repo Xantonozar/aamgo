@@ -19,11 +19,11 @@ export const metadata = {
   openGraph: {
     title: 'আমGO ',
     description: 'Have an আম on the GO',
-    url: 'https://aamgoshop.vercel.app',
+    url: 'https://aamgo.vercel.app',
     siteName: 'আমGO',
     images: [
       {
-        url: 'https://aamgoshop.vercel.app/vercel.png',
+        url: 'https://aamgo.vercel.app/vercel.png',
         width: 1200,
         height: 630,
       },
