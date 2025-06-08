@@ -2,7 +2,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 export const metadata = {
-  title: 'Blog & Recipes - AmGo Mangoes',
+  title: 'Blog & Recipes - আমGO Mangoes',
   description: 'Explore our collection of mango-inspired recipes and insightful articles about the world\'s most beloved fruit.',
 };
 
