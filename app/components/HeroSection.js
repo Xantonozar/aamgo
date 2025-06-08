@@ -36,7 +36,7 @@ export default function HeroSection() {
       },
       product: {
         name: "Buy mango now",
-        image: "/mangoes/himsagar4.jpg",
+        image: "/mangoes/khirsapat6.jpg",
         rating:1,
         badge: "Premium"
       }
