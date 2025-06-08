@@ -13,7 +13,7 @@ const featuredProducts = [
   },
   {
     id: 2,
-    name: 'Amrapali - 12kg',
+    name: 'Himsagar - 12kg',
     description: 'A hybrid variety with deep orange flesh, known for its sweetness and longer shelf life.',
     price: 0,
     image: '/mangoes/himsaga1.jpg',
