@@ -29,13 +29,13 @@ const PromotionalBanner = () => {
         />
       </div>
       <div className="relative py-16 px-8 md:px-16 flex flex-col items-start">
-        <span className="bg-white/20 text-white text-sm font-medium px-4 py-1 rounded-full mb-6">Limited Time Offer</span>
-        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white max-w-xl mb-6">20% Off Premium Mango Varieties</h2>
+        <span className="bg-white/20 text-white text-sm font-medium px-4 py-1 rounded-full mb-6">Sweet and Tasty</span>
+        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white max-w-xl mb-6">Original Mangoes from Rajshahi</h2>
         <p className="text-white/90 text-lg max-w-xl mb-8">
-          Experience the finest mangoes handpicked from our orchards. Limited stock available for this season!
+          Experience the finest mangoes handpicked for you. Limited stock available for this season!
         </p>
         <Link 
-          href="#premium-collection" 
+          href="/shop" 
           className="inline-flex items-center bg-white text-[#f57f17] px-8 py-4 rounded-full font-bold hover:bg-[#f8f4e9] transition-colors shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-transform"
         >
           Shop Now
