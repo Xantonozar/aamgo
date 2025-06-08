@@ -101,7 +101,7 @@ export default function ProductShowcase() {
                   <span className="font-bold text-sm md:text-base text-[#2e7d32] transition-all duration-300 group-hover:scale-110 inline-block">৳{product.price}</span>
                   <Link href='https://forms.gle/V5cx17et4QCsR5FZ9'>
                   <button className="bg-[#f9a825] text-[#333333] px-3 py-1.5 rounded-full text-xs font-medium group-hover:bg-[#f57f17] group-hover:text-white transition-all duration-300 relative overflow-hidden shadow-sm">
-                    <span className="relative z-10">Add to Cart</span>
+                    <span className="relative z-10">Book Now</span>
                     <span className="absolute inset-0 bg-white/20 transform -skew-x-12 -translate-x-full group-hover:translate-x-full transition-transform duration-700"></span>
                   </button>
                   </Link>
