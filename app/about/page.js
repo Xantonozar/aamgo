@@ -111,7 +111,7 @@ export default function AboutPage() {
   const teamMembers = [
     {
       id: 1,
-      name: 'Motasim MIsbah Mredul',
+      name: 'Motasim Misbah ',
       role: 'Founder & CEO',
       image: '/misbah.jpg',
       bio: 'Misbah founded আমGO with a vision to bring premium mangoes to customers worldwide.',
@@ -125,7 +125,7 @@ export default function AboutPage() {
     },
     {
       id: 3,
-      name: 'Md Shuvo Hasan JOy',
+      name: 'Md Shuvo Hasan Joy',
       role: 'Quality Assurance Manager',
       image: '/shuvo.jpg',
       bio: 'Shuvo ensures that only the finest mangoes make it to your doorstep, maintaining our high standards of quality.',
