@@ -6,7 +6,7 @@ import { MagnifyingGlassIcon, XMarkIcon } from '@heroicons/react/24/outline';
 
 // Import product data from ProductGrid
 const products = [
-    {
+  {
     "id": 1,
     "name": "Gopalbhog - 12kg",
     "description": "An early-season mango known for its sweet taste and minimal fiber content.",
@@ -62,7 +62,7 @@ const products = [
     "name": "Himsagar - 12kg",
     "description": "A popular variety with fiberless, juicy pulp and a rich aroma.",
     "price": 1189.00,
-    "image": "/mangoes/himsagar1.jpg",
+    "image": "/mangoes/himsagar4.jpg",
     "badge": "Peak Hour",
     "rating": 4.9,
     "reviews": 160,
@@ -79,7 +79,7 @@ const products = [
     "name": "Himsagar - 23kg",
     "description": "A popular variety with fiberless, juicy pulp and a rich aroma.",
     "price": 2229.00,
-    "image": "/mangoes/himsagar2.jpg",
+    "image": "/mangoes/himsaga1.jpg",
     "badge": "Peak Hour",
     "rating": 4.9,
     "reviews": 160,
@@ -113,7 +113,7 @@ const products = [
     "name": "Khirsapat - 12kg",
     "description": "Premium Khirsapat mangoes from Chapainawabganj, celebrated for their sweet, fiberless flesh and rich aroma.",
     "price": 1189.00,
-    "image": "/mangoes/khirsapat1.jpg",
+    "image": "/mangoes/khirsapat6.jpg",
     "badge": "Peak Hour",
     "rating": 4.8,
     "reviews": 102,
@@ -130,7 +130,7 @@ const products = [
     "name": "Khirsapat - 23kg",
     "description": "Bulk pack of Khirsapat mangoes, perfect for gatherings or sharing. Enjoy the authentic taste of Chapainawabganj's finest.",
     "price": 2229.00,
-    "image": "/mangoes/khirsapat2.jpg",
+    "image": "/mangoes/khirsapat4.jpg",
     "badge": "Peak Hour",
     "rating": 4.8,
     "reviews": 102,
@@ -147,7 +147,7 @@ const products = [
     "name": "Khirsapat - 46kg",
     "description": "Family-sized pack of Khirsapat mangoes, ensuring everyone gets a taste of this delightful variety.",
     "price": 4279.00,
-    "image": "/mangoes/khirsapat3.jpg",
+    "image": "/mangoes/khirsapat5.jpg",
     "badge": "Peak Hour",
     "rating": 4.8,
     "reviews": 102,
@@ -261,7 +261,8 @@ const products = [
     "origin": "Chapai Nawabganj",
     "amount": 46
   }
-];
+ 
+]
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);

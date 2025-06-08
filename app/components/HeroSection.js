@@ -9,35 +9,35 @@ export default function HeroSection() {
   const carouselItems = [
     {
       image: {
-        src: "/mangoes/himsagar1.jpg",
+        src: "/mangoes/himsaga1.jpg",
         alt: "Fresh mangoes on wooden table"
       },
       offer: {
         label: "Special Offer",
-        discount: "20% OFF",
-        subtext: "On first order"
+        discount: "Free Delivery ",
+        subtext: "Point delivery only"
       },
       product: {
-        name: "Himsagar Mango",
-        image: "/mangoes/khirsapat2.jpg",
+        name: "Quality Packeging",
+        image: "/mangoes/himsagar2.jpg",
         rating: 5,
         badge: "Sweetest"
       }
     },
     {
       image: {
-        src: "/mangoes/khirsapat3.jpg",
+        src: "/mangoes/gopal3.jpg",
         alt: "Mango slices"
       },
       offer: {
         label: "Limited Time",
-        discount: "Few Days Remaining",
-        subtext: "This weekend only"
+        discount: "Few Weekss Remaining",
+        subtext: "This month only"
       },
       product: {
-        name: "gopalvog Mango",
-        image: "/mangoes/himsagar2.jpg",
-        rating: 4.5,
+        name: "Buy mango now",
+        image: "/mangoes/gopal2.jpg",
+        rating:1,
         badge: "Premium"
       }
     },
@@ -47,15 +47,15 @@ export default function HeroSection() {
         alt: "Mango farm harvest"
       },
       offer: {
-        label: "Prebooking purchase",
+        label: "Special Deal",
         discount: "6KG FREE",
         subtext: "Minimum 40kg order"
       },
       product: {
-        name: "Langra Mango",
+        name: "Khirsapat Only",
         image: "/mangoes/khirsapat1.jpg", 
         rating: 4,
-        badge: "Coming Soon"
+        badge: "Khirsapat Only"
       }
     },
     {
@@ -64,12 +64,12 @@ export default function HeroSection() {
         alt: "Mango close up"
       },
       offer: {
-        label: "New Season",
-        discount: "Stock Loading",
-        subtext: "Please wait"
+        label: "Carbide Free",
+        discount: "Organic mangoes",
+        subtext: "Eat healthy "
       },
       product: {
-        name: "Amropali Mango",
+        name: "Health Matters",
         image: "/mangoes/gopal2.jpg",
         rating: 5,
         badge: "Harvestinng in Tree"
@@ -211,7 +211,7 @@ export default function HeroSection() {
                 className="inline-flex items-center justify-center bg-white text-[#333333] font-semibold px-6 md:px-8 py-3 md:py-4 rounded-lg border border-[#e0e0e0] hover:border-[#f57f17] hover:text-[#f57f17] transition-all duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-1 hover:scale-105 group text-base md:text-lg whitespace-nowrap"
               >
                 <span className="relative z-10 flex items-center">
-                 আমGOPEDIA
+                 Mangopedia
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 md:h-5 md:w-5 ml-2 opacity-0 group-hover:opacity-100 transform -translate-x-2 group-hover:translate-x-0 transition-all duration-300" viewBox="0 0 20 20" fill="currentColor">
                     <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
                     <path fillRule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clipRule="evenodd" />
@@ -334,7 +334,7 @@ export default function HeroSection() {
               </div>
               <div>
                 <div className="text-xs md:text-sm font-medium text-[#333333] hover:text-[#f57f17] transition-colors duration-300">{currentItem.product.name}</div>
-                <div className="flex items-center">
+                {/* <div className="flex items-center">
                   {[...Array(5)].map((_, i) => (
                     <svg 
                       key={i} 
@@ -347,7 +347,7 @@ export default function HeroSection() {
                     </svg>
                   ))}
                   <span className="text-[8px] md:text-xs text-[#555555] ml-1 hover:text-[#f57f17] transition-colors duration-300">{currentItem.product.badge}</span>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

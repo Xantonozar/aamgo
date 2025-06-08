@@ -16,7 +16,7 @@ const featuredProducts = [
     name: 'Amrapali - 12kg',
     description: 'A hybrid variety with deep orange flesh, known for its sweetness and longer shelf life.',
     price: 0,
-    image: '/mangoes/himsagar1.jpg',
+    image: '/mangoes/himsaga1.jpg',
     badge: 'Harvesting',
   },
   {
