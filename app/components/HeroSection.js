@@ -36,14 +36,14 @@ export default function HeroSection() {
       },
       product: {
         name: "Buy mango now",
-        image: "/mangoes/gopal2.jpg",
+        image: "/mangoes/himsagar5.jpg",
         rating:1,
         badge: "Premium"
       }
     },
     {
       image: {
-        src: "/mangoes/gopal3.jpg",
+        src: "/mangoes/khirsapat5.jpg",
         alt: "Mango farm harvest"
       },
       offer: {
@@ -60,7 +60,7 @@ export default function HeroSection() {
     },
     {
       image: {
-        src: "/mangoes/gopal2.jpg",
+        src: "/mangoes/khirsapat4.jpg",
         alt: "Mango close up"
       },
       offer: {
@@ -70,7 +70,7 @@ export default function HeroSection() {
       },
       product: {
         name: "Health Matters",
-        image: "/mangoes/gopal2.jpg",
+        image: "/mangoes/himsagar4.jpg",
         rating: 5,
         badge: "Harvestinng in Tree"
       }
