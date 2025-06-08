@@ -47,12 +47,12 @@ export default function HeroSection() {
         alt: "Mango farm harvest"
       },
       offer: {
-        label: "Special Deal",
-        discount: "6KG FREE",
-        subtext: "Minimum 40kg order"
+        label: "Premium Mangoes",
+        discount: "Garden Fresh",
+        subtext: "Taste that you will not forget"
       },
       product: {
-        name: "Khirsapat Only",
+        name: "Varieties of Mango",
         image: "/mangoes/khirsapat1.jpg", 
         rating: 4,
         badge: "Khirsapat Only"
