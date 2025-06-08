@@ -127,7 +127,7 @@ export default function AboutPage() {
       id: 3,
       name: 'Md Shuvo Hasan JOy',
       role: 'Quality Assurance Manager',
-      image: '/shuvo.png',
+      image: '/shuvo.jpg',
       bio: 'Shuvo ensures that only the finest mangoes make it to your doorstep, maintaining our high standards of quality.',
     },
     {
@@ -290,7 +290,7 @@ export default function AboutPage() {
                 }}
               >
                 <img 
-                  src="https://res.cloudinary.com/chirkut/image/upload/v1749225626/IMG_20250606_215613_w6ew3r.jpg" 
+                  src="/orchad.jpg" 
                   alt="Mango orchard" 
                   className="w-full h-full object-cover"
                 />

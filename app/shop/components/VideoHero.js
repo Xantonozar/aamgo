@@ -74,7 +74,7 @@ export default function VideoHero() {
       <div className="container mx-auto px-4 h-full flex flex-col justify-center relative z-10">
         <div className="max-w-3xl" data-aos="fade-up">
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-            Have an  <span className="text-[#FDBE02] drop-shadow-md">আম</span><br/>on the  <span className="text-[#FDBE02] drop-shadow-md">GO</span>
+            Have an  <span className="text-[#d00031] drop-shadow-md">আম</span><br/>on the  <span className="text-[#d00031] drop-shadow-md">GO</span>
           </h1>
           <p className="text-white/90 text-lg md:text-xl mb-8 max-w-2xl">
             Explore our exceptional collection of hand-picked, premium mangoes sourced directly from sustainable orchards around the world.
