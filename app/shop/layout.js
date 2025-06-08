@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Shop - AmGo Mangoes',
+  title: 'Shop - আমGO Mangoes',
   description: 'Browse our premium selection of mangoes and mango products',
 };
 
