@@ -13,7 +13,7 @@ export default function Home() {
         <HeroSection />
         <ProductShowcase />
         <Features />
-        // <Testimonials />
+        
       </main>
       <Footer />
     </div>
