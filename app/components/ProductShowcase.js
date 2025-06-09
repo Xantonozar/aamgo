@@ -29,7 +29,7 @@ const featuredProducts = [
   },
   {
     id: 4,
-    name: 'Himsagar - 12kg',
+    name: 'khirsapat - 12kg',
     description: 'A popular variety with fiberless, juicy pulp and a rich aroma.',
     price: 1300,
     image: '/mangoes/khirsapat1.jpg',
