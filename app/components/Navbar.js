@@ -108,11 +108,11 @@ const products = [
     "origin": "Chapai Nawabganj",
     "amount": 46
   },
-  {
+ {
     "id": 7,
     "name": "Khirsapat - 12kg",
     "description": "Premium Khirsapat mangoes from Chapainawabganj, celebrated for their sweet, fiberless flesh and rich aroma.",
-    "price": 1189.00,
+    "price": 1300.00,
     "image": "/mangoes/khirsapat6.jpg",
     "badge": "Peak Hour",
     "rating": 4.8,
@@ -129,7 +129,7 @@ const products = [
     "id": 8,
     "name": "Khirsapat - 23kg",
     "description": "Bulk pack of Khirsapat mangoes, perfect for gatherings or sharing. Enjoy the authentic taste of Chapainawabganj's finest.",
-    "price": 2229.00,
+    "price": 2430.00,
     "image": "/mangoes/khirsapat4.jpg",
     "badge": "Peak Hour",
     "rating": 4.8,
@@ -146,7 +146,7 @@ const products = [
     "id": 9,
     "name": "Khirsapat - 46kg",
     "description": "Family-sized pack of Khirsapat mangoes, ensuring everyone gets a taste of this delightful variety.",
-    "price": 4279.00,
+    "price": 4600.00,
     "image": "/mangoes/khirsapat5.jpg",
     "badge": "Peak Hour",
     "rating": 4.8,
