@@ -114,14 +114,20 @@ export default function AboutPage() {
       name: 'Motasim Misbah ',
       role: 'Founder & CEO',
       image: '/misbah.jpg',
-      bio: 'Misbah founded আমGO with a vision to bring premium mangoes to customers worldwide.',
+      bio: 'Misbah founded আমGO with a vision to bring premium mangoes to customers nationwide.',
+      fb: "https://www.facebook.com/motasim.misbah.2025",
+      ld: "#",
+      ig: "#",
     },
     {
       id: 2,
       name: 'Salman Ahmed Zadid',
-      role: 'CO founder and Oparation Asssistant ',
+      role: 'CO founder and Oparation Asssistant',
       image: '/zadid.jpg',
-      bio: 'Salman oensure our website , content remain qualityfull.',
+      bio: 'Salman ensure our website, content remain qualityfull',
+      fb: "#",
+      ld: "#",
+      ig: "#",
     },
     {
       id: 3,
@@ -129,13 +135,19 @@ export default function AboutPage() {
       role: 'Quality Assurance Manager',
       image: '/shuvo.jpg',
       bio: 'Shuvo ensures that only the finest mangoes make it to your doorstep, maintaining our high standards of quality.',
+      fb: "#",
+      ld: "#",
+      ig: "#",
     },
     {
       id: 4,
       name: 'Imtiaz  Ahmed',
-      role: 'Overall Oparator ',
+      role: 'Overall Oparator',
       image: '/imtiaz.png',
-      bio: 'Imtiaz take lead where we need aid and look after the overall missing pieces.',
+      bio: 'Imtiaz take lead where we need assist and lookafter the overall missing pieces.',
+      fb: "#",
+      ld: "#",
+      ig: "#",
     },
   ];
 
@@ -612,7 +624,7 @@ export default function AboutPage() {
                       <p className="text-white/90 text-sm mb-4">{member.bio}</p>
                       <div className="flex space-x-3">
                         <a 
-  href="#" 
+  href={member.fb} 
   className="w-9 h-9 rounded-full bg-white/20 flex items-center justify-center hover:bg-[#1877F2] transition-all duration-300 transform hover:scale-110"
   aria-label="Facebook"
 >
@@ -622,7 +634,7 @@ export default function AboutPage() {
 </a>
 
                         <a 
-                          href="#" 
+                          href={member.ld} 
                           className="w-9 h-9 rounded-full bg-white/20 flex items-center justify-center hover:bg-[#FDBE02] transition-all duration-300 transform hover:scale-110"
                           aria-label="LinkedIn"
                         >
@@ -631,7 +643,7 @@ export default function AboutPage() {
                           </svg>
                         </a>
                         <a 
-                          href="#" 
+                          href={member.ig}
                           className="w-9 h-9 rounded-full bg-white/20 flex items-center justify-center hover:bg-[#FDBE02] transition-all duration-300 transform hover:scale-110"
                           aria-label="Instagram"
                         >
