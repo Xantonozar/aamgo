@@ -146,7 +146,7 @@ const products = [
     "id": 9,
     "name": "Khirsapat - 46kg",
     "description": "Family-sized pack of Khirsapat mangoes, ensuring everyone gets a taste of this delightful variety.",
-    "price": 4600.00,
+    "price": 4599.00,
     "image": "/mangoes/khirsapat5.jpg",
     "badge": "Peak Hour",
     "rating": 4.8,
