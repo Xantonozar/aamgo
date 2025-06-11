@@ -116,8 +116,7 @@ export default function AboutPage() {
       image: '/misbah.jpg',
       bio: 'Misbah founded আমGO with a vision to bring premium mangoes to customers nationwide.',
       fb: "https://www.facebook.com/motasim.misbah.2025",
-      ld: "#",
-      ig: "#",
+      ld: "https://www.linkedin.com/in/motasim-misbah-b68076344",
     },
     {
       id: 2,
@@ -125,9 +124,9 @@ export default function AboutPage() {
       role: 'CO founder and Oparation Asssistant',
       image: '/zadid.jpg',
       bio: 'Salman ensure our website, content remain qualityfull',
-      fb: "#",
-      ld: "#",
-      ig: "#",
+      fb: "https://www.facebook.com/zadidsalman",
+      ld: "https://www.linkedin.com/in/salman-zadid-aa0545331/",
+      ig: "https://www.instagram.com/zadidsalman",
     },
     {
       id: 3,
@@ -135,9 +134,9 @@ export default function AboutPage() {
       role: 'Quality Assurance Manager',
       image: '/shuvo.jpg',
       bio: 'Shuvo ensures that only the finest mangoes make it to your doorstep, maintaining our high standards of quality.',
-      fb: "#",
-      ld: "#",
-      ig: "#",
+      fb: "https://www.facebook.com/mdshuvohasan.joy.1",
+      ld: "https://www.linkedin.com/",
+      ig: "https://www.instagram.com/",
     },
     {
       id: 4,
@@ -145,9 +144,9 @@ export default function AboutPage() {
       role: 'Overall Oparator',
       image: '/imtiaz.png',
       bio: 'Imtiaz take lead where we need assist and lookafter the overall missing pieces.',
-      fb: "#",
-      ld: "#",
-      ig: "#",
+      fb: "https://www.facebook.com/imtiaz.ahmed.453499",
+      ld: "https://www.linkedin.com/",
+      ig: "https://www.instagram.com/",
     },
   ];
 
