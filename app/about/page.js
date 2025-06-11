@@ -624,7 +624,7 @@ export default function AboutPage() {
                       <div className="flex space-x-3">
                         <a 
   href={member.fb} 
-  className="w-9 h-9 rounded-full bg-white/20 flex items-center justify-center hover:bg-[#1877F2] transition-all duration-300 transform hover:scale-110"
+  className="w-9 h-9 rounded-full bg-white/20 flex items-center justify-center hover:bg-[#FDBE02] transition-all duration-300 transform hover:scale-110"
   aria-label="Facebook"
 >
   <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-white" fill="currentColor" viewBox="0 0 24 24">
