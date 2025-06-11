@@ -612,14 +612,15 @@ export default function AboutPage() {
                       <p className="text-white/90 text-sm mb-4">{member.bio}</p>
                       <div className="flex space-x-3">
                         <a 
-                          href="#" 
-                          className="w-9 h-9 rounded-full bg-white/20 flex items-center justify-center hover:bg-[#FDBE02] transition-all duration-300 transform hover:scale-110"
-                          aria-label="Twitter"
-                        >
-                          <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-white" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
-                          </svg>
-                        </a>
+  href="#" 
+  className="w-9 h-9 rounded-full bg-white/20 flex items-center justify-center hover:bg-[#1877F2] transition-all duration-300 transform hover:scale-110"
+  aria-label="Facebook"
+>
+  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-white" fill="currentColor" viewBox="0 0 24 24">
+    <path d="M22.675 0h-21.35C.596 0 0 .595 0 1.326v21.348C0 23.405.596 24 1.326 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.464.099 2.797.143v3.24l-1.92.001c-1.504 0-1.796.715-1.796 1.763v2.31h3.588l-.467 3.622h-3.12V24h6.116C23.405 24 24 23.405 24 22.674V1.326C24 .595 23.405 0 22.675 0z"/>
+  </svg>
+</a>
+
                         <a 
                           href="#" 
                           className="w-9 h-9 rounded-full bg-white/20 flex items-center justify-center hover:bg-[#FDBE02] transition-all duration-300 transform hover:scale-110"
